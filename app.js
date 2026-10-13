@@ -12,7 +12,7 @@ function restoreDirection(){const key=new URLSearchParams(location.search).get('
 
 // One native-scroll timeline. No wheel handler and no scrolling library.
 const hero=$('.hero-story'),frame=$('.hero-frame'),header=$('.site-header'),video=$('#hero-video');
-let geometry={},progress=0,target=0,ticking=false,userPaused=false,manualVideo=false;
+let geometry={},progress=0,target=0,ticking=false,userPaused=false,manualVideo=false,heroInView=true;
 const clamp=(n,a=0,b=1)=>Math.max(a,Math.min(b,n));
 function measureMotion(){$('.path-tabs').setAttribute('aria-orientation',mobile.matches?'horizontal':'vertical');geometry={top:hero.getBoundingClientRect().top+scrollY,range:Math.max(1,hero.offsetHeight-frame.offsetHeight),pathTop:$('#directions').getBoundingClientRect().top+scrollY,pathHeight:$('#directions').offsetHeight,retreatTop:$('#retreat').getBoundingClientRect().top+scrollY,retreatHeight:$('#retreat').offsetHeight};updateScroll();}
 function updateScroll(){target=reduced.matches?0:clamp((scrollY-geometry.top)/geometry.range);if(!ticking){ticking=true;requestAnimationFrame(renderMotion);}}
@@ -21,8 +21,50 @@ addEventListener('scroll',updateScroll,{passive:true});addEventListener('resize'
 document.fonts.ready.then(()=>{setLocale('ru');textReady=true;relayoutText();const ro=new ResizeObserver(()=>{relayoutText();measureMotion();});all('[data-pretext]').forEach(e=>ro.observe(e));const mo=new MutationObserver(relayoutText);all('[data-pretext]').forEach(e=>mo.observe(e,{childList:true,characterData:true,subtree:true}));measureMotion();});
 const io=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('is-revealed');io.unobserve(e.target);}}),{threshold:.2});all('.reveal').forEach(e=>io.observe(e));document.body.classList.add('motion-ready');
 function videoUI(){const paused=video.paused;$('#video-toggle').setAttribute('aria-pressed',String(paused));$('#video-toggle').setAttribute('aria-label',paused?'Воспроизвести видео':'Остановить видео');$('#video-toggle span').textContent=paused?'Воспроизвести':'Пауза видео';$('#video-toggle svg').innerHTML=paused?'<path d="m6 4 10 6-10 6z"/>':'<path d="M6 4v12M14 4v12"/>';}
-function syncVideo(){if(document.hidden||userPaused||(reduced.matches&&!manualVideo))video.pause();else video.play().catch(videoUI);videoUI();}
-video.addEventListener('canplay',syncVideo);video.addEventListener('play',videoUI);video.addEventListener('pause',videoUI);document.addEventListener('visibilitychange',syncVideo);$('#video-toggle').addEventListener('click',()=>{userPaused=!video.paused;manualVideo=!userPaused;syncVideo();});reduced.addEventListener('change',()=>{manualVideo=false;progress=0;syncVideo();measureMotion();});new IntersectionObserver(entries=>{if(entries[0].isIntersecting)syncVideo();else video.pause();},{threshold:.02}).observe(hero);
+function syncVideo(){if(document.hidden||!heroInView||userPaused||(reduced.matches&&!manualVideo))video.pause();else video.play().catch(videoUI);videoUI();}
+video.addEventListener('canplay',syncVideo);video.addEventListener('play',videoUI);video.addEventListener('pause',videoUI);document.addEventListener('visibilitychange',syncVideo);$('#video-toggle').addEventListener('click',()=>{userPaused=!video.paused;manualVideo=!userPaused;syncVideo();});reduced.addEventListener('change',()=>{manualVideo=false;progress=0;syncVideo();measureMotion();});new IntersectionObserver(entries=>{heroInView=entries[0].isIntersecting;syncVideo();},{threshold:.02}).observe(hero);
+
+// Supplied five-second forest film: lazy, one-shot, held final frame.
+// Replays require an explicit click; returning to the section never resets time.
+const forest=$('#forest-video'),retreat=$('#retreat'),forestToggle=$('#forest-toggle');
+const forestState={visible:false,loaded:false,finished:false,userPaused:false,manual:false,blocked:false,pending:false,started:false};
+function forestUI(){
+ const playing=!forest.paused&&!forest.ended;
+ const label=playing?'Остановить лесную сцену':forestState.finished?'Повторить лесную сцену':forestState.started?'Продолжить лесную сцену':'Воспроизвести лесную сцену';
+ forestToggle.setAttribute('aria-label',label);
+ forestToggle.querySelector('span').textContent=playing?'Пауза сцены':forestState.finished?'Повторить сцену':forestState.started?'Продолжить сцену':'Воспроизвести сцену';
+ forestToggle.querySelector('svg').innerHTML=playing?'<path d="M6 4v12M14 4v12"/>':'<path d="m6 4 10 6-10 6z"/>';
+ retreat.dataset.videoState=forestState.finished?'ended':forestState.started?(playing?'playing':'paused'):'poster';
+ $('#forest-status').textContent=forestState.finished?'Сцена завершена. Последний кадр сохранён.':forestState.blocked?'Нажмите «Воспроизвести сцену», чтобы запустить видео.':playing?'Лесная сцена воспроизводится.':'Статичный кадр леса.';
+}
+function loadForest(){if(forestState.loaded)return;forest.src=forest.dataset.src;forest.load();forestState.loaded=true;}
+function syncForest(){
+ if(document.hidden||!forestState.visible||forestState.userPaused||forestState.finished||(reduced.matches&&!forestState.manual)){forest.pause();forestUI();return;}
+ if(forestState.blocked||forestState.pending)return;
+ loadForest();forestState.pending=true;
+ forest.play().then(()=>{
+  forestState.pending=false;
+  if(document.hidden||!forestState.visible||forestState.userPaused||(reduced.matches&&!forestState.manual))forest.pause();
+  forestUI();
+ }).catch(error=>{
+  forestState.pending=false;
+  if(error.name!=='AbortError')forestState.blocked=true;
+  forestUI();
+ });
+}
+forest.addEventListener('playing',()=>{forestState.started=true;forestState.blocked=false;forestUI();});
+forest.addEventListener('pause',forestUI);
+forest.addEventListener('ended',()=>{forestState.finished=true;forestUI();});
+forest.addEventListener('error',()=>{forestState.blocked=true;forestState.started=false;forestUI();});
+forestToggle.addEventListener('click',()=>{
+ if(!forest.paused&&!forest.ended){forestState.userPaused=true;forest.pause();forestUI();return;}
+ if(forestState.finished){forestState.finished=false;forest.currentTime=0;}
+ forestState.userPaused=false;forestState.manual=true;forestState.blocked=false;syncForest();
+});
+document.addEventListener('visibilitychange',syncForest);
+reduced.addEventListener('change',()=>{forestState.manual=false;syncForest();});
+new IntersectionObserver(entries=>{const entry=entries[0];forestState.visible=entry.isIntersecting&&entry.intersectionRatio>=.15;syncForest();},{threshold:[0,.15,.4]}).observe(retreat);
+forestUI();
 
 // Native dialogs, local-only plan, no personal data or outgoing API.
 const picker=$('#picker-dialog'),menu=$('#menu-dialog');let opener=null,planUrl=null;

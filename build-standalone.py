@@ -10,7 +10,7 @@ def data_url(name):
 html = (root / 'index.html').read_text()
 css = (root / 'styles.css').read_text()
 css = re.sub(r"url\(['\"]?(assets/[^)'\"]+)['\"]?\)", lambda m: 'url("' + data_url(m[1]) + '")', css)
-html = re.sub(r'(src|href|poster)="(assets/[^\"]+)"', lambda m: m[1] + '="' + data_url(m[2]) + '"', html)
+html = re.sub(r'(src|href|poster|data-src)="(assets/[^\"]+)"', lambda m: m[1] + '="' + data_url(m[2]) + '"', html)
 html = html.replace('<link rel="stylesheet" href="styles.css">', '<style>' + css + '</style>')
 html = html.replace('<script type="module" src="app.js"></script>', '')
 bundle = (root / 'assets/motion/pretext.js').read_text()
