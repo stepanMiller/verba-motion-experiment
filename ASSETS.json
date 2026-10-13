@@ -35,13 +35,13 @@
       "origin": "https://verbamayr.ru/upload/video/promo_.mp4",
       "time_seconds": 11.4,
       "description": "Real specialist with apparatus; no named procedure or qualification asserted",
-      "publication_status": "awaiting-user-confirmation"
+      "publication_status": "user-confirmed-for-public-demo"
     },
     {
       "path": "assets/motion/beauty-portrait.webp",
       "sha256": "347db4fe4a165712aeacf2fd2d4c90008c3c5b61909010774d9d53ddc7c0c3e8",
       "origin": "https://verbamayr.ru/upload/video/promo_.mp4",
-      "publication_status": "awaiting-user-confirmation"
+      "publication_status": "user-confirmed-for-public-demo"
     },
     {
       "path": "assets/motion/forest-poster.webp",
@@ -54,19 +54,19 @@
       "path": "assets/motion/hero-film.mp4",
       "sha256": "5c653272dc8085538e363e1d3e68e8713b0275350d788a4cb8c6177864bdfa9d",
       "origin": "https://verbamayr.ru/upload/video/promo_.mp4",
-      "publication_status": "awaiting-user-confirmation"
+      "publication_status": "user-confirmed-for-public-demo"
     },
     {
       "path": "assets/motion/hero-poster.webp",
       "sha256": "da028307d3563c7d9814d42f5162edc088958616b82660aafdc5e95c2106e21c",
       "origin": "https://verbamayr.ru/upload/video/promo_.mp4",
-      "publication_status": "awaiting-user-confirmation"
+      "publication_status": "user-confirmed-for-public-demo"
     },
     {
       "path": "assets/motion/mayr.webp",
       "sha256": "f5c7508e37639dfaba2a8751bcc985f4dbd68d9fed8ad309df51d1736d576e16",
       "origin": "https://verbamayr.ru/upload/dev2fun.imagecompress/webp/resize_cache/iblock/3a8/900_600_1/27qlpwr5kfsjr9itoeizu0areyc4wm46.webp",
-      "publication_status": "awaiting-user-confirmation"
+      "publication_status": "user-confirmed-for-public-demo"
     },
     {
       "path": "assets/motion/medical.webp",
@@ -74,13 +74,13 @@
       "origin": "https://verbamayr.ru/upload/video/promo_.mp4",
       "time_seconds": 9.1,
       "description": "Existing physician consultation scene, clearer adjacent frame",
-      "publication_status": "awaiting-user-confirmation"
+      "publication_status": "user-confirmed-for-public-demo"
     },
     {
       "path": "assets/motion/mind.webp",
       "sha256": "c5a2d2af70c298e5107e4122e1898c6a593c3644366cefdeae2fda613da3dd1b",
       "origin": "https://verbamayr.ru/upload/dev2fun.imagecompress/webp/resize_cache/iblock/83d/900_800_1/vmmfwqoqqi3v8unngo3t9oitphsckmp0.webp",
-      "publication_status": "awaiting-user-confirmation"
+      "publication_status": "user-confirmed-for-public-demo"
     },
     {
       "path": "assets/motion/pretext.js",
@@ -93,13 +93,13 @@
       "path": "assets/motion/spa.webp",
       "sha256": "06a6e78a9ab1cfc4af4d2d455e94bf4fdda4bacbedce1e0f826688fd26cde4fe",
       "origin": "https://verbamayr.ru/upload/dev2fun.imagecompress/webp/resize_cache/iblock/203/900_600_1/jks4g5z6fyx6cqfus36uaa84s336kdhp.webp",
-      "publication_status": "awaiting-user-confirmation"
+      "publication_status": "user-confirmed-for-public-demo"
     },
     {
       "path": "assets/motion/territory.webp",
       "sha256": "b0d9c4c1ac5a3002274e4ab0960165959d84e1f85a10511683758c3c86738ffe",
       "origin": "https://verbamayr.ru/upload/dev2fun.imagecompress/webp/resize_cache/iblock/7c8/900_600_1/g1jgbiuk2cqfr3l1t34xikjw3th8z3qh.webp",
-      "publication_status": "awaiting-user-confirmation"
+      "publication_status": "user-confirmed-for-public-demo"
     },
     {
       "path": "assets/motion/verba-forest-5s.mp4",
@@ -108,5 +108,42 @@
       "documentary": false,
       "publication_status": "user-requested-use"
     }
-  ]
+  ],
+  "public_use_confirmation": {
+    "date": "2026-10-13",
+    "source": "User confirmation in this task",
+    "scope": "Official VERBA photographs and original film may be shown in the public experimental demo"
+  },
+  "evidence_capture": {
+    "date": "2026-10-13",
+    "url": "https://stepanmiller.github.io/verba-motion-experiment/",
+    "site_commit": "5a463e1c7e9ba234d8b7345b6e83444a329ba67c",
+    "browser": "Chromium Linux; mobile uses touch emulation, not physical iPhone or Safari",
+    "files": [
+      {
+        "path": "demo-evidence/desktop-1440.png",
+        "sha256": "617a06bbf358d5371b0c7506220f29c60946488502b6704424084ce2eb941edf"
+      },
+      {
+        "path": "demo-evidence/desktop-motion.mp4",
+        "sha256": "8fd084576331a27989b04ffeba8c59773a00e0abfc61af73fe2e34fca90624eb"
+      },
+      {
+        "path": "demo-evidence/mobile-375.png",
+        "sha256": "327547fca92c7e7189aa8246b42410b4502b543a8880b95cf0ba9e52e18975fb"
+      },
+      {
+        "path": "demo-evidence/mobile-390.png",
+        "sha256": "76a1b0ec11ff36817ba9ba5902d7294ae13c7be1c2cec26abd3c299799c6bd69"
+      },
+      {
+        "path": "demo-evidence/mobile-motion.mp4",
+        "sha256": "7830b5167440c4cb4c42adf9fef19f54eafd2ad9b8e7fb9f5d6fbbfd319cb46e"
+      }
+    ]
+  },
+  "repository_publication_confirmation": {
+    "date": "2026-10-13",
+    "source": "User explicitly allowed a public repository and Pages demo"
+  }
 }

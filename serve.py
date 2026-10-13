@@ -19,7 +19,7 @@ class Handler(SimpleHTTPRequestHandler):
         super().end_headers()
     def do_GET(self):
         path = self.path.split('?', 1)[0]
-        if path not in ('/', '/index.html', '/standalone.html', '/styles.css', '/app.js') and not path.startswith('/assets/'):
+        if path not in ('/', '/index.html', '/standalone.html', '/styles.css', '/app.js') and not path.startswith(('/assets/', '/demo-evidence/')):
             self.send_error(404)
             return
         super().do_GET()
