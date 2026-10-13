@@ -19,3 +19,15 @@ dialog{border:0;padding:0;width:min(560px,calc(100% - 32px));max-height:calc(100
 /* Approved refinement: a shorter bridge to the four directions. */
 .intro{padding-block:56px 64px}.intro>.section-label{margin-bottom:24px}.intro-grid{grid-template-columns:1.8fr 1fr;gap:64px;align-items:end}.intro-lead{font-size:26px;line-height:1.45;max-width:720px}.intro-grid>.line-link{justify-self:end;min-width:260px}
 @media(max-width:600px){.intro{padding-block:44px 48px}.intro-grid{grid-template-columns:1fr;gap:22px}.intro-lead{font-size:23px}.intro-grid>.line-link{justify-self:start;min-width:0;width:100%}.intro>.section-label{margin-bottom:20px}}
+
+/* Real VERBA materials: small tonal corrections, no documentary alteration. */
+.direction-image{filter:saturate(.94) contrast(.99)}
+.direction-image[data-image=mayr]{filter:saturate(.91) brightness(.99)}
+.direction-image[data-image=mind]{filter:saturate(.92) brightness(1.025)}
+.direction-image[data-image=beauty]{filter:saturate(.93) brightness(1.025)}
+.direction-image[data-image=spa]{filter:saturate(.9) brightness(1.015)}
+.beauty-image{object-position:42% 50%}.path-shade{background:linear-gradient(0deg,#10231c9a,transparent 36%)}
+.medicine-grid{grid-template-columns:1.45fr 1fr;gap:72px}.portrait-crop{height:570px}.portrait-crop>img{object-position:29% 48%}.medicine-lead{margin-bottom:28px}.approach-row{padding-block:18px}
+@media(max-width:1100px){.medicine-grid{gap:48px}}
+@media(max-width:820px){.medicine-grid{gap:36px}.portrait-crop{height:490px}}
+@media(max-width:600px){.medicine-grid{grid-template-columns:1fr;gap:30px}.portrait-crop{height:365px}.portrait-crop>img{object-position:25% 50%}.beauty-image{object-position:42% 50%}.medicine-lead{font-size:22px}.approach-row{padding-block:18px}}
