@@ -15,3 +15,5 @@ qa-recordings/
 standalone.html
 *.log
 .DS_Store
+_site/
+qa-output/

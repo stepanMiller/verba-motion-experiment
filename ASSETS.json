@@ -1,0 +1,112 @@
+{
+  "source_checked_date": "2026-10-13",
+  "official_content_source": "https://verbamayr.ru/",
+  "assets": [
+    {
+      "path": "assets/clear-sans-bold.woff",
+      "sha256": "564710d77aa4621584324bd8132b7f1ffc386875ae5d34facde74da30a0f2db4",
+      "origin": "Official VERBA font files; embedded name table identifies Intel Clear Sans",
+      "license": "Apache-2.0",
+      "publication_status": "license-confirmed"
+    },
+    {
+      "path": "assets/clear-sans-medium.woff",
+      "sha256": "a92d60e8fb0cae6103ccba06731470578c3ddc538d0c03fe58e3ff89e62871ef",
+      "origin": "Official VERBA font files; embedded name table identifies Intel Clear Sans",
+      "license": "Apache-2.0",
+      "publication_status": "license-confirmed"
+    },
+    {
+      "path": "assets/clear-sans.woff",
+      "sha256": "4b2c9dca64b3294ee72932203b7f4d7e7245647d80b07d6dabacc30475ad8feb",
+      "origin": "Official VERBA font files; embedded name table identifies Intel Clear Sans",
+      "license": "Apache-2.0",
+      "publication_status": "license-confirmed"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "sha256": "d35a579fb8b92910df0acfa2d79ba4a8c2298b6ce8acbc9910af5825e9cb0054",
+      "origin": "Project CSS/SVG graphic; no documentary imagery",
+      "publication_status": "project-generated"
+    },
+    {
+      "path": "assets/motion/beauty-care.webp",
+      "sha256": "f8a663c6f4a316510d2e7aa8f86cc44366d1d3723d4b82506fc38881b9bcf295",
+      "origin": "https://verbamayr.ru/upload/video/promo_.mp4",
+      "time_seconds": 11.4,
+      "description": "Real specialist with apparatus; no named procedure or qualification asserted",
+      "publication_status": "awaiting-user-confirmation"
+    },
+    {
+      "path": "assets/motion/beauty-portrait.webp",
+      "sha256": "347db4fe4a165712aeacf2fd2d4c90008c3c5b61909010774d9d53ddc7c0c3e8",
+      "origin": "https://verbamayr.ru/upload/video/promo_.mp4",
+      "publication_status": "awaiting-user-confirmation"
+    },
+    {
+      "path": "assets/motion/forest-poster.webp",
+      "sha256": "98649967c86f81620f091ae17cca756b6986591dc02a4cc51ed7acb5fbe92810",
+      "origin": "User-supplied Runway forest clip, attachment 2DBA2D12-47AE-4E6B-8103-A7A39C80B78B.mp4; poster extracted at 0s",
+      "documentary": false,
+      "publication_status": "user-requested-use"
+    },
+    {
+      "path": "assets/motion/hero-film.mp4",
+      "sha256": "5c653272dc8085538e363e1d3e68e8713b0275350d788a4cb8c6177864bdfa9d",
+      "origin": "https://verbamayr.ru/upload/video/promo_.mp4",
+      "publication_status": "awaiting-user-confirmation"
+    },
+    {
+      "path": "assets/motion/hero-poster.webp",
+      "sha256": "da028307d3563c7d9814d42f5162edc088958616b82660aafdc5e95c2106e21c",
+      "origin": "https://verbamayr.ru/upload/video/promo_.mp4",
+      "publication_status": "awaiting-user-confirmation"
+    },
+    {
+      "path": "assets/motion/mayr.webp",
+      "sha256": "f5c7508e37639dfaba2a8751bcc985f4dbd68d9fed8ad309df51d1736d576e16",
+      "origin": "https://verbamayr.ru/upload/dev2fun.imagecompress/webp/resize_cache/iblock/3a8/900_600_1/27qlpwr5kfsjr9itoeizu0areyc4wm46.webp",
+      "publication_status": "awaiting-user-confirmation"
+    },
+    {
+      "path": "assets/motion/medical.webp",
+      "sha256": "ca807cda5d59eaf8b72d659c4781ad2df32981a81c524c4dd4cc62cd365bf5ad",
+      "origin": "https://verbamayr.ru/upload/video/promo_.mp4",
+      "time_seconds": 9.1,
+      "description": "Existing physician consultation scene, clearer adjacent frame",
+      "publication_status": "awaiting-user-confirmation"
+    },
+    {
+      "path": "assets/motion/mind.webp",
+      "sha256": "c5a2d2af70c298e5107e4122e1898c6a593c3644366cefdeae2fda613da3dd1b",
+      "origin": "https://verbamayr.ru/upload/dev2fun.imagecompress/webp/resize_cache/iblock/83d/900_800_1/vmmfwqoqqi3v8unngo3t9oitphsckmp0.webp",
+      "publication_status": "awaiting-user-confirmation"
+    },
+    {
+      "path": "assets/motion/pretext.js",
+      "sha256": "c85e755d86d33718e66978d18a2733eb5d11cf44747f58846bd390ed0d6f24e7",
+      "origin": "Pinned gstack design-html/vendor/pretext.js; @chenglou/pretext",
+      "license": "MIT",
+      "publication_status": "license-confirmed"
+    },
+    {
+      "path": "assets/motion/spa.webp",
+      "sha256": "06a6e78a9ab1cfc4af4d2d455e94bf4fdda4bacbedce1e0f826688fd26cde4fe",
+      "origin": "https://verbamayr.ru/upload/dev2fun.imagecompress/webp/resize_cache/iblock/203/900_600_1/jks4g5z6fyx6cqfus36uaa84s336kdhp.webp",
+      "publication_status": "awaiting-user-confirmation"
+    },
+    {
+      "path": "assets/motion/territory.webp",
+      "sha256": "b0d9c4c1ac5a3002274e4ab0960165959d84e1f85a10511683758c3c86738ffe",
+      "origin": "https://verbamayr.ru/upload/dev2fun.imagecompress/webp/resize_cache/iblock/7c8/900_600_1/g1jgbiuk2cqfr3l1t34xikjw3th8z3qh.webp",
+      "publication_status": "awaiting-user-confirmation"
+    },
+    {
+      "path": "assets/motion/verba-forest-5s.mp4",
+      "sha256": "cbe46d2ebac7527cab64c7f4bd936fc56fb35045e117d775b5313cd5c83740cf",
+      "origin": "User-supplied Runway forest clip, attachment 2DBA2D12-47AE-4E6B-8103-A7A39C80B78B.mp4; poster extracted at 0s",
+      "documentary": false,
+      "publication_status": "user-requested-use"
+    }
+  ]
+}
