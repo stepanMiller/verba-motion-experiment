@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+node_modules/
+__pycache__/
+*.pyc
+.gstack/
+.codex/
+.agents/
+cache/
+tmp/
+evidence/
+qa-recordings/
+*.zip
+standalone.html
+*.log
+.DS_Store
