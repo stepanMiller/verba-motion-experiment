@@ -107,6 +107,48 @@
       "origin": "User-supplied Runway forest clip, attachment 2DBA2D12-47AE-4E6B-8103-A7A39C80B78B.mp4; poster extracted at 0s",
       "documentary": false,
       "publication_status": "user-requested-use"
+    },
+    {
+      "path": "assets/motion/mayr-640.webp",
+      "sha256": "11a0885809bd6a1c692410d77f17ba630644a81c90128d56afd6fa8cc0b89e46",
+      "origin": "assets/motion/mayr.webp",
+      "description": "Local Lanczos downsample, WebP quality 92; no new detail or generated content",
+      "publication_status": "user-confirmed-for-public-demo"
+    },
+    {
+      "path": "assets/motion/mind-640.webp",
+      "sha256": "e46a94c86b7930abaa6ae65183697ea5c72ecc3ccafd4ae1be0aa45c9082534f",
+      "origin": "assets/motion/mind.webp",
+      "description": "Local Lanczos downsample, WebP quality 92; no new detail or generated content",
+      "publication_status": "user-confirmed-for-public-demo"
+    },
+    {
+      "path": "assets/motion/spa-640.webp",
+      "sha256": "dd527c912c7622a12db7cb4e77c7ab9923de1396f297833e9f751f4df998a2a7",
+      "origin": "assets/motion/spa.webp",
+      "description": "Local Lanczos downsample, WebP quality 92; no new detail or generated content",
+      "publication_status": "user-confirmed-for-public-demo"
+    },
+    {
+      "path": "assets/motion/beauty-care-640.webp",
+      "sha256": "345359217e4047b48e90dbf57241dadcdfbf079d3adb3459f1fe296aa02042ef",
+      "origin": "assets/motion/beauty-care.webp",
+      "description": "Local Lanczos downsample, WebP quality 92; no new detail or generated content",
+      "publication_status": "user-confirmed-for-public-demo"
+    },
+    {
+      "path": "assets/motion/beauty-care-960.webp",
+      "sha256": "20eabf758c1209634493e4024c8cdd3bc12315ad632c21fc8ee3fdc6cd99d0d5",
+      "origin": "assets/motion/beauty-care.webp",
+      "description": "Local Lanczos downsample, WebP quality 92; no new detail or generated content",
+      "publication_status": "user-confirmed-for-public-demo"
+    },
+    {
+      "path": "assets/motion/medical-960.webp",
+      "sha256": "b6afaa90cf42093545a4409bb323c7c3446feeb76f107563d98fd77b1cd3671c",
+      "origin": "assets/motion/medical.webp",
+      "description": "Local Lanczos downsample, WebP quality 92; no new detail or generated content",
+      "publication_status": "user-confirmed-for-public-demo"
     }
   ],
   "public_use_confirmation": {

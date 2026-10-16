@@ -16,6 +16,9 @@ class Page(HTMLParser):
         for key in ['src', 'href', 'poster', 'data-src']:
             value = a.get(key, '')
             if value.startswith('assets/'): self.refs.add(value)
+        for candidate in a.get('srcset', '').split(','):
+            value = candidate.strip().split(' ')[0]
+            if value.startswith('assets/'): self.refs.add(value)
         if tag == 'a' and a.get('href', '').startswith('#'): self.anchors.append(a['href'][1:])
         if tag == 'video': self.videos[a.get('id')] = a
         if tag == 'img': self.images.append(a)
@@ -41,6 +44,7 @@ def inspect():
     if 'src' in forest or 'loop' in forest or forest.get('preload') != 'none': errors.append('Forest must be lazy and non-looping')
     if not forest.get('poster') or not forest.get('data-src'): errors.append('Forest poster/source missing')
     hero = page.videos.get('hero-video', {})
+    if 'src' in hero or hero.get('preload') != 'none' or not hero.get('data-src'): errors.append('Hero must defer video loading until motion is allowed')
     if hero.get('poster') != 'assets/motion/hero-poster.webp': errors.append('Approved hero poster changed')
     if 'Питание и привычки по методу Майера' not in app: errors.append('Confirmed MAYR method unexpectedly removed')
     report = {'architecture':'Static HTML/CSS/ES module; no production build required', 'status':'pass' if not errors else 'fail', 'assets':len(page.refs), 'html_ids':len(page.ids), 'internal_anchor_count':len(page.anchors), 'errors':errors}

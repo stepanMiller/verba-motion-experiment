@@ -11,6 +11,14 @@ html = (root / 'index.html').read_text()
 css = (root / 'styles.css').read_text()
 css = re.sub(r"url\(['\"]?(assets/[^)'\"]+)['\"]?\)", lambda m: 'url("' + data_url(m[1]) + '")', css)
 html = re.sub(r'(src|href|poster|data-src)="(assets/[^\"]+)"', lambda m: m[1] + '="' + data_url(m[2]) + '"', html)
+# Embed every responsive candidate too; otherwise file:// opens select missing paths.
+def embed_srcset(match):
+    candidates = []
+    for candidate in match[1].split(','):
+        name, descriptor = candidate.strip().split()
+        candidates.append(data_url(name) + ' ' + descriptor)
+    return 'srcset="' + ', '.join(candidates) + '"'
+html = re.sub(r'srcset="([^"]+)"', embed_srcset, html)
 html = html.replace('<link rel="stylesheet" href="styles.css">', '<style>' + css + '</style>')
 html = html.replace('<script type="module" src="app.js"></script>', '')
 bundle = (root / 'assets/motion/pretext.js').read_text()

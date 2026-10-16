@@ -1,0 +1,93 @@
+[
+  {
+    "asset": "mayr",
+    "before": {
+      "width": 899,
+      "height": 600,
+      "bytes": 47136
+    },
+    "desktop": "unchanged source",
+    "variants": [
+      {
+        "path": "assets/motion/mayr-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 44892
+      }
+    ]
+  },
+  {
+    "asset": "mind",
+    "before": {
+      "width": 900,
+      "height": 600,
+      "bytes": 47498
+    },
+    "desktop": "unchanged source",
+    "variants": [
+      {
+        "path": "assets/motion/mind-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 43692
+      }
+    ]
+  },
+  {
+    "asset": "spa",
+    "before": {
+      "width": 899,
+      "height": 600,
+      "bytes": 111440
+    },
+    "desktop": "unchanged source",
+    "variants": [
+      {
+        "path": "assets/motion/spa-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 101090
+      }
+    ]
+  },
+  {
+    "asset": "beauty-care",
+    "before": {
+      "width": 1280,
+      "height": 720,
+      "bytes": 46778
+    },
+    "desktop": "unchanged source",
+    "variants": [
+      {
+        "path": "assets/motion/beauty-care-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 19382
+      },
+      {
+        "path": "assets/motion/beauty-care-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 33838
+      }
+    ]
+  },
+  {
+    "asset": "medical",
+    "before": {
+      "width": 1280,
+      "height": 720,
+      "bytes": 73810
+    },
+    "desktop": "unchanged source",
+    "variants": [
+      {
+        "path": "assets/motion/medical-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 42694
+      }
+    ]
+  }
+]

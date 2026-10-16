@@ -1,0 +1,156 @@
+[
+  {
+    "width": 1440,
+    "height": 1000,
+    "dpr": 1,
+    "errors": [],
+    "images": [
+      {
+        "name": "mayr",
+        "src": "http://127.0.0.1:4173/assets/motion/mayr.webp",
+        "complete": true,
+        "width": 1618,
+        "sizes": "(max-width:600px) max(100vw, 533px), max(56vw, 1618px)"
+      },
+      {
+        "name": "mind",
+        "src": "http://127.0.0.1:4173/assets/motion/mind.webp",
+        "complete": true,
+        "width": 1620,
+        "sizes": "(max-width:600px) max(100vw, 534px), max(56vw, 1620px)"
+      },
+      {
+        "name": "beauty",
+        "src": "http://127.0.0.1:4173/assets/motion/beauty-care.webp",
+        "complete": true,
+        "width": 1920,
+        "sizes": "(max-width:600px) max(100vw, 633px), max(56vw, 1920px)"
+      },
+      {
+        "name": "spa",
+        "src": "http://127.0.0.1:4173/assets/motion/spa.webp",
+        "complete": true,
+        "width": 1618,
+        "sizes": "(max-width:600px) max(100vw, 533px), max(56vw, 1618px)"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "errors": [],
+    "images": [
+      {
+        "name": "mayr",
+        "src": "http://127.0.0.1:4173/assets/motion/mayr-640.webp",
+        "complete": true,
+        "width": 533,
+        "sizes": "(max-width:600px) max(100vw, 533px), max(56vw, 1618px)"
+      },
+      {
+        "name": "mind",
+        "src": "http://127.0.0.1:4173/assets/motion/mind-640.webp",
+        "complete": true,
+        "width": 534,
+        "sizes": "(max-width:600px) max(100vw, 534px), max(56vw, 1620px)"
+      },
+      {
+        "name": "beauty",
+        "src": "http://127.0.0.1:4173/assets/motion/beauty-care-640.webp",
+        "complete": true,
+        "width": 633,
+        "sizes": "(max-width:600px) max(100vw, 633px), max(56vw, 1920px)"
+      },
+      {
+        "name": "spa",
+        "src": "http://127.0.0.1:4173/assets/motion/spa-640.webp",
+        "complete": true,
+        "width": 533,
+        "sizes": "(max-width:600px) max(100vw, 533px), max(56vw, 1618px)"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "dpr": 3,
+    "errors": [],
+    "images": [
+      {
+        "name": "mayr",
+        "src": "http://127.0.0.1:4173/assets/motion/mayr.webp",
+        "complete": true,
+        "width": 533,
+        "sizes": "(max-width:600px) max(100vw, 533px), max(56vw, 1618px)"
+      },
+      {
+        "name": "mind",
+        "src": "http://127.0.0.1:4173/assets/motion/mind.webp",
+        "complete": true,
+        "width": 534,
+        "sizes": "(max-width:600px) max(100vw, 534px), max(56vw, 1620px)"
+      },
+      {
+        "name": "beauty",
+        "src": "http://127.0.0.1:4173/assets/motion/beauty-care.webp",
+        "complete": true,
+        "width": 633,
+        "sizes": "(max-width:600px) max(100vw, 633px), max(56vw, 1920px)"
+      },
+      {
+        "name": "spa",
+        "src": "http://127.0.0.1:4173/assets/motion/spa.webp",
+        "complete": true,
+        "width": 533,
+        "sizes": "(max-width:600px) max(100vw, 533px), max(56vw, 1618px)"
+      }
+    ]
+  },
+  {
+    "width": 375,
+    "height": 812,
+    "dpr": 2,
+    "errors": [],
+    "images": [
+      {
+        "name": "mayr",
+        "src": "http://127.0.0.1:4173/assets/motion/mayr.webp",
+        "complete": true,
+        "width": 533,
+        "sizes": "(max-width:600px) max(100vw, 533px), max(56vw, 1618px)"
+      },
+      {
+        "name": "mind",
+        "src": "http://127.0.0.1:4173/assets/motion/mind.webp",
+        "complete": true,
+        "width": 534,
+        "sizes": "(max-width:600px) max(100vw, 534px), max(56vw, 1620px)"
+      },
+      {
+        "name": "beauty",
+        "src": "http://127.0.0.1:4173/assets/motion/beauty-care.webp",
+        "complete": true,
+        "width": 633,
+        "sizes": "(max-width:600px) max(100vw, 633px), max(56vw, 1920px)"
+      },
+      {
+        "name": "spa",
+        "src": "http://127.0.0.1:4173/assets/motion/spa.webp",
+        "complete": true,
+        "width": 533,
+        "sizes": "(max-width:600px) max(100vw, 533px), max(56vw, 1618px)"
+      }
+    ]
+  },
+  {
+    "reducedMotion": true,
+    "automaticMovieRequests": []
+  },
+  {
+    "manualHero": true
+  },
+  {
+    "manualForest": true
+  }
+]
