@@ -1,0 +1,230 @@
+[
+  {
+    "source": "http://127.0.0.1:4179/assets/motion/beauty-verbaskin-480.webp",
+    "bottle": {
+      "left": 130.27263908701858,
+      "right": 202.4438231098431,
+      "top": 358.749710235378,
+      "bottom": 592.2447173680457
+    },
+    "visual": {
+      "left": 0,
+      "right": 375,
+      "top": 324.484375,
+      "bottom": 764.484375
+    },
+    "complete": true,
+    "width": 375,
+    "reducedMotion": "reduce",
+    "bottleVisible": true
+  },
+  {
+    "source": "http://127.0.0.1:4179/assets/motion/beauty-verbaskin-480.webp",
+    "bottle": {
+      "left": 130.27263908701858,
+      "right": 202.4438231098431,
+      "top": 356.855423126003,
+      "bottom": 590.3504302586707
+    },
+    "visual": {
+      "left": 0,
+      "right": 375,
+      "top": 324.484375,
+      "bottom": 764.484375
+    },
+    "complete": true,
+    "width": 375,
+    "reducedMotion": "no-preference",
+    "bottleVisible": true
+  },
+  {
+    "source": "http://127.0.0.1:4179/assets/motion/beauty-verbaskin-480.webp",
+    "bottle": {
+      "left": 137.47263908701856,
+      "right": 209.64382310984308,
+      "top": 358.062210235378,
+      "bottom": 591.5572173680457
+    },
+    "visual": {
+      "left": 0,
+      "right": 390,
+      "top": 323.796875,
+      "bottom": 763.796875
+    },
+    "complete": true,
+    "width": 390,
+    "reducedMotion": "reduce",
+    "bottleVisible": true
+  },
+  {
+    "source": "http://127.0.0.1:4179/assets/motion/beauty-verbaskin-480.webp",
+    "bottle": {
+      "left": 137.47263602742453,
+      "right": 209.6438244907526,
+      "top": 356.56108491601003,
+      "bottom": 590.0561064150127
+    },
+    "visual": {
+      "left": 0,
+      "right": 390,
+      "top": 323.796875,
+      "bottom": 763.796875
+    },
+    "complete": true,
+    "width": 390,
+    "reducedMotion": "no-preference",
+    "bottleVisible": true
+  },
+  {
+    "source": "http://127.0.0.1:4179/assets/motion/beauty-verbaskin-1122.webp",
+    "bottle": {
+      "left": 136.85369828815976,
+      "right": 272.1746683309558,
+      "top": 201.84125356633382,
+      "bottom": 639.6443919400856
+    },
+    "visual": {
+      "left": 0,
+      "right": 479.359375,
+      "top": 125.09375,
+      "bottom": 975.09375
+    },
+    "complete": true,
+    "width": 768,
+    "reducedMotion": "reduce",
+    "bottleVisible": true
+  },
+  {
+    "source": "http://127.0.0.1:4179/assets/motion/beauty-verbaskin-1122.webp",
+    "bottle": {
+      "left": 136.85369828815976,
+      "right": 272.1746683309558,
+      "top": 200.54152517277913,
+      "bottom": 638.3446635465309
+    },
+    "visual": {
+      "left": 0,
+      "right": 479.359375,
+      "top": 125.09375,
+      "bottom": 975.09375
+    },
+    "complete": true,
+    "width": 768,
+    "reducedMotion": "no-preference",
+    "bottleVisible": true
+  },
+  {
+    "source": "http://127.0.0.1:4179/assets/motion/beauty-verbaskin-1122.webp",
+    "bottle": {
+      "left": 200.74619828815975,
+      "right": 336.0671683309558,
+      "top": 202.13812856633382,
+      "bottom": 639.9412669400856
+    },
+    "visual": {
+      "left": 0,
+      "right": 612.46875,
+      "top": 125.390625,
+      "bottom": 975.390625
+    },
+    "complete": true,
+    "width": 1024,
+    "reducedMotion": "reduce",
+    "bottleVisible": true
+  },
+  {
+    "source": "http://127.0.0.1:4179/assets/motion/beauty-verbaskin-1122.webp",
+    "bottle": {
+      "left": 200.74619828815975,
+      "right": 336.0671683309558,
+      "top": 200.83069448430257,
+      "bottom": 638.6338328580543
+    },
+    "visual": {
+      "left": 0,
+      "right": 612.46875,
+      "top": 125.390625,
+      "bottom": 975.390625
+    },
+    "complete": true,
+    "width": 1024,
+    "reducedMotion": "no-preference",
+    "bottleVisible": true
+  },
+  {
+    "source": "http://127.0.0.1:4179/assets/motion/beauty-verbaskin-1122.webp",
+    "bottle": {
+      "left": 328.6127172459893,
+      "right": 497.0473763368984,
+      "top": 170.19171122994652,
+      "bottom": 715.1273729946524
+    },
+    "visual": {
+      "left": 0,
+      "right": 926.390625,
+      "top": 100.390625,
+      "bottom": 1000.390625
+    },
+    "complete": true,
+    "width": 1440,
+    "reducedMotion": "reduce",
+    "bottleVisible": true
+  },
+  {
+    "source": "http://127.0.0.1:4179/assets/motion/beauty-verbaskin-1122.webp",
+    "bottle": {
+      "left": 328.6127172459893,
+      "right": 497.0473763368984,
+      "top": 168.91869792428247,
+      "bottom": 713.8543596889883
+    },
+    "visual": {
+      "left": 0,
+      "right": 926.390625,
+      "top": 100.390625,
+      "bottom": 1000.390625
+    },
+    "complete": true,
+    "width": 1440,
+    "reducedMotion": "no-preference",
+    "bottleVisible": true
+  },
+  {
+    "source": "http://127.0.0.1:4179/assets/motion/beauty-verbaskin-1122.webp",
+    "bottle": {
+      "left": 423.9613413547237,
+      "right": 641.2681595365418,
+      "top": 145.18066510695186,
+      "bottom": 848.2321356951871
+    },
+    "visual": {
+      "left": 0,
+      "right": 1195.1875,
+      "top": 100.390625,
+      "bottom": 1000.390625
+    },
+    "complete": true,
+    "width": 1920,
+    "reducedMotion": "reduce",
+    "bottleVisible": true
+  },
+  {
+    "source": "http://127.0.0.1:4179/assets/motion/beauty-verbaskin-1122.webp",
+    "bottle": {
+      "left": 423.9613413547237,
+      "right": 641.2681595365418,
+      "top": 143.90765180128778,
+      "bottom": 846.959122389523
+    },
+    "visual": {
+      "left": 0,
+      "right": 1195.1875,
+      "top": 100.390625,
+      "bottom": 1000.390625
+    },
+    "complete": true,
+    "width": 1920,
+    "reducedMotion": "no-preference",
+    "bottleVisible": true
+  }
+]

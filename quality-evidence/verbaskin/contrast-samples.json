@@ -1,0 +1,218 @@
+[
+  {
+    "scene": "beauty-375",
+    "text": "BEAUTY",
+    "min": 6.32,
+    "threshold": 3
+  },
+  {
+    "scene": "beauty-375",
+    "text": "03 / 04",
+    "min": 7.0,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-375",
+    "text": "ЧЕТЫРЕ НАПРАВЛЕНИЯ",
+    "min": 7.55,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-375",
+    "text": "Какой ритмнужен вам?",
+    "min": 7.55,
+    "threshold": 3
+  },
+  {
+    "scene": "beauty-375",
+    "text": "01MAYR",
+    "min": 6.63,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-375",
+    "text": "02MIND",
+    "min": 6.63,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-375",
+    "text": "03BEAUTY",
+    "min": 7.55,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-375",
+    "text": "04SPA",
+    "min": 6.63,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-375",
+    "text": "Забота, которую вы чувствуете.",
+    "min": 7.55,
+    "threshold": 3
+  },
+  {
+    "scene": "beauty-375",
+    "text": "Внимание к коже и индивидуальному уходу. Эсте",
+    "min": 7.1,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-375",
+    "text": "Составить личный план",
+    "min": 7.55,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-375",
+    "text": "Программа, длительность и противопоказания об",
+    "min": 7.1,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-390",
+    "text": "BEAUTY",
+    "min": 6.2,
+    "threshold": 3
+  },
+  {
+    "scene": "beauty-390",
+    "text": "03 / 04",
+    "min": 6.94,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-390",
+    "text": "ЧЕТЫРЕ НАПРАВЛЕНИЯ",
+    "min": 7.55,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-390",
+    "text": "Какой ритмнужен вам?",
+    "min": 7.55,
+    "threshold": 3
+  },
+  {
+    "scene": "beauty-390",
+    "text": "01MAYR",
+    "min": 6.63,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-390",
+    "text": "02MIND",
+    "min": 6.63,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-390",
+    "text": "03BEAUTY",
+    "min": 7.55,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-390",
+    "text": "04SPA",
+    "min": 6.63,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-390",
+    "text": "Забота, которую вы чувствуете.",
+    "min": 7.55,
+    "threshold": 3
+  },
+  {
+    "scene": "beauty-390",
+    "text": "Внимание к коже и индивидуальному уходу. Эсте",
+    "min": 7.1,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-390",
+    "text": "Составить личный план",
+    "min": 7.55,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-390",
+    "text": "Программа, длительность и противопоказания об",
+    "min": 7.1,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "BEAUTY",
+    "min": 5.28,
+    "threshold": 3
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "03 / 04",
+    "min": 6.94,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "ЧЕТЫРЕ НАПРАВЛЕНИЯ",
+    "min": 6.62,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "Какой ритмнужен вам?",
+    "min": 6.55,
+    "threshold": 3
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "01MAYR",
+    "min": 5.73,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "02MIND",
+    "min": 5.92,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "03BEAUTY",
+    "min": 6.72,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "04SPA",
+    "min": 5.79,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "Забота, которую вы чувствуете.",
+    "min": 6.49,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "Внимание к коже и индивидуальному уходу. Эсте",
+    "min": 5.4,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "Составить личный план",
+    "min": 6.8,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "Программа, длительность и противопоказания об",
+    "min": 6.63,
+    "threshold": 4.5
+  }
+]

@@ -4,7 +4,7 @@ from pathlib import Path
 from PIL import Image
 
 root = Path(__file__).resolve().parents[1] / 'assets/motion'
-for name, widths in {'mayr':[640], 'mind':[640], 'spa':[640], 'beauty-care':[640,960], 'medical':[960]}.items():
+for name, widths in {'mayr':[640], 'mind':[640], 'spa':[640], 'medical':[960]}.items():
     with Image.open(root / f'{name}.webp') as source:
         for width in widths:
             assert width < source.width

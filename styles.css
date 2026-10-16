@@ -98,3 +98,11 @@ dialog{border:0;padding:0;width:min(560px,calc(100% - 32px));max-height:calc(100
 .path-shade{background:linear-gradient(0deg,var(--scene-paper),transparent 38%)}
 .path-visual-label{color:var(--scene-ink)}
 .path-tab:not(.is-active){color:#3c4a40}
+
+/* Approved VERBASKIN still: preserve the full bottle and its label. */
+.directions[data-active=beauty]{--scene-paper:#e6d7c5;--scene-ink:#493c30}
+.direction-image[data-image=beauty]{filter:none}
+.beauty-image{height:100%;top:0;object-position:48% 20%;mask-image:none}
+.directions[data-active=beauty] .path-shade{background:linear-gradient(0deg,var(--scene-paper),transparent 30%)}
+@media(max-width:600px){.directions[data-active=beauty] .path-visual{height:440px}.beauty-image{object-position:48% 20%}}
+.directions[data-active=beauty] .path-panel>p,.directions[data-active=beauty] .medical-note{color:#3b453a}

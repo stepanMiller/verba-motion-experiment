@@ -149,6 +149,51 @@
       "origin": "assets/motion/medical.webp",
       "description": "Local Lanczos downsample, WebP quality 92; no new detail or generated content",
       "publication_status": "user-confirmed-for-public-demo"
+    },
+    {
+      "path": "assets/motion/beauty-verbaskin-480.webp",
+      "sha256": "b2440bf54478249dc4ab636f0471a2a3a440d97b3fd156d091e5335db8cc2f76",
+      "origin": "User-approved beauty-verbaskin-v2.png, Library libfile_81e5038a5bf8819183856fe1a73c532a; transferred in Git commit 19c5330f9d1d55d808a3768d171de3cfcfff1e65 via assets/incoming/beauty-verbaskin-v2.png.base64",
+      "source_sha256": "0675a0756cc349c71d812a397e3f3355784b3be8c74bcfa241fd0e3f94e3dc2a",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 2269809,
+      "product_reference": "https://verbacuisine.ru/shop/uvlazhnjajuschij-krem-anti-age-sea-glow",
+      "description": "Artistic composition based on the actual VERBASKIN SEA GLOW product; not a documentary photograph of a treatment. WebP quality 94; no upscaling or new generation.",
+      "documentary": false,
+      "publication_status": "user-approved-for-experimental-site-integration; deployment-on-hold"
+    },
+    {
+      "path": "assets/motion/beauty-verbaskin-800.webp",
+      "sha256": "290f74c5423afe1aaa3dd6992279da0473948718e13fb7ba6beb91452fca55d4",
+      "origin": "User-approved beauty-verbaskin-v2.png, Library libfile_81e5038a5bf8819183856fe1a73c532a; transferred in Git commit 19c5330f9d1d55d808a3768d171de3cfcfff1e65 via assets/incoming/beauty-verbaskin-v2.png.base64",
+      "source_sha256": "0675a0756cc349c71d812a397e3f3355784b3be8c74bcfa241fd0e3f94e3dc2a",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 2269809,
+      "product_reference": "https://verbacuisine.ru/shop/uvlazhnjajuschij-krem-anti-age-sea-glow",
+      "description": "Artistic composition based on the actual VERBASKIN SEA GLOW product; not a documentary photograph of a treatment. WebP quality 94; no upscaling or new generation.",
+      "documentary": false,
+      "publication_status": "user-approved-for-experimental-site-integration; deployment-on-hold"
+    },
+    {
+      "path": "assets/motion/beauty-verbaskin-1122.webp",
+      "sha256": "fb01da0b2c8e2c717b6d62518f002da8c1ce9c1f62d98a9a705d8212d02451cc",
+      "origin": "User-approved beauty-verbaskin-v2.png, Library libfile_81e5038a5bf8819183856fe1a73c532a; transferred in Git commit 19c5330f9d1d55d808a3768d171de3cfcfff1e65 via assets/incoming/beauty-verbaskin-v2.png.base64",
+      "source_sha256": "0675a0756cc349c71d812a397e3f3355784b3be8c74bcfa241fd0e3f94e3dc2a",
+      "source_dimensions": [
+        1122,
+        1402
+      ],
+      "source_bytes": 2269809,
+      "product_reference": "https://verbacuisine.ru/shop/uvlazhnjajuschij-krem-anti-age-sea-glow",
+      "description": "Artistic composition based on the actual VERBASKIN SEA GLOW product; not a documentary photograph of a treatment. WebP quality 94; no upscaling or new generation.",
+      "documentary": false,
+      "publication_status": "user-approved-for-experimental-site-integration; deployment-on-hold"
     }
   ],
   "public_use_confirmation": {
