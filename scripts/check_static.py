@@ -46,7 +46,7 @@ def inspect():
     if 'assets/motion/verba-forest-poster.webp' not in page.refs or 'assets/motion/verba-forest-poster-mobile.webp' not in page.refs: errors.append('Responsive forest posters missing')
     hero = page.videos.get('hero-video', {})
     if 'src' in hero or hero.get('preload') != 'none' or not hero.get('data-src'): errors.append('Hero must defer video loading until motion is allowed')
-    if hero.get('poster') != 'assets/motion/hero-poster.webp': errors.append('Approved hero poster changed')
+    if hero.get('poster') != 'assets/motion/hero-pool-poster.webp': errors.append('Approved hero poster changed')
     if 'Питание и привычки по методу Майера' not in app: errors.append('Confirmed MAYR method unexpectedly removed')
     report = {'architecture':'Static HTML/CSS/ES module; no production build required', 'status':'pass' if not errors else 'fail', 'assets':len(page.refs), 'html_ids':len(page.ids), 'internal_anchor_count':len(page.anchors), 'errors':errors}
     return page.refs, report

@@ -226,6 +226,15 @@
       "description": "Approved upscaled source, not native 1440p; artistic forest visualization, not documentary resort footage. Supplied final export used byte-for-byte.",
       "documentary": false,
       "publication_status": "user-approved-for-experimental-site-integration; deployment-on-hold"
+    },
+    {
+      "path": "assets/motion/hero-pool-poster.webp",
+      "sha256": "78a754a9d8725df275c51773aa91f242f2c91d12c6fe224b26d6a48d9a141f82",
+      "origin": "https://verbamayr.ru/upload/dev2fun.imagecompress/webp/images/PHOTO_WEB_1920x1080.webp",
+      "transport_commit": "91fa8989331e788c2fd4c0dc3615bde7c09d8534",
+      "description": "Official real pool photograph, already toned in source; 1920x1080, used byte-for-byte for the hero poster and reduced-motion fallback. Not an improvement to the 720p hero video.",
+      "documentary": true,
+      "publication_status": "user-confirmed-for-experimental-demo; deployment-on-hold"
     }
   ],
   "public_use_confirmation": {

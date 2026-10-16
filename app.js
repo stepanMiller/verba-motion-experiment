@@ -22,6 +22,8 @@ document.fonts.ready.then(()=>{setLocale('ru');textReady=true;relayoutText();con
 const io=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('is-revealed');io.unobserve(e.target);}}),{threshold:.2});all('.reveal').forEach(e=>io.observe(e));document.body.classList.add('motion-ready');
 function videoUI(){const paused=video.paused;$('#video-toggle').setAttribute('aria-pressed',String(paused));$('#video-toggle').setAttribute('aria-label',paused?'Воспроизвести видео':'Остановить видео');$('#video-toggle span').textContent=paused?'Воспроизвести':'Пауза видео';$('#video-toggle svg').innerHTML=paused?'<path d="m6 4 10 6-10 6z"/>':'<path d="M6 4v12M14 4v12"/>';}
 function syncVideo(){if(document.hidden||!heroInView||userPaused||(reduced.matches&&!manualVideo))video.pause();else {if(!video.getAttribute('src')){video.src=video.dataset.src;video.load();}video.play().catch(videoUI);}videoUI();}
+video.addEventListener('playing',()=>$('.hero-camera').classList.add('has-video-frame'));
+video.addEventListener('error',()=>$('.hero-camera').classList.remove('has-video-frame'));
 video.addEventListener('canplay',syncVideo);video.addEventListener('play',videoUI);video.addEventListener('pause',videoUI);document.addEventListener('visibilitychange',syncVideo);$('#video-toggle').addEventListener('click',()=>{userPaused=!video.paused;manualVideo=!userPaused;syncVideo();});reduced.addEventListener('change',()=>{manualVideo=false;progress=0;syncVideo();measureMotion();});new IntersectionObserver(entries=>{heroInView=entries[0].isIntersecting;syncVideo();},{threshold:.02}).observe(hero);
 
 // Approved upscaled forest B: responsive, lazy, one-shot, held final frame.

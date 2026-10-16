@@ -1,0 +1,1952 @@
+{
+  "base": "http://127.0.0.1:4183/",
+  "results": [
+    {
+      "width": 1440,
+      "mode": "Chromium desktop",
+      "checks": [
+        {
+          "name": "Initial hero/brand/media/resources",
+          "status": "pass",
+          "observed": {
+            "width": 1440,
+            "y": 0,
+            "overflow": false,
+            "motion": {
+              "progress": 0,
+              "target": 0,
+              "reduced": false,
+              "activeDirection": "mayr",
+              "videoPlaying": true
+            },
+            "hero": {
+              "playing": true,
+              "ready": 4
+            },
+            "forest": {
+              "src": null,
+              "paused": true,
+              "time": 0,
+              "ended": false,
+              "state": "poster",
+              "loop": false
+            },
+            "pretext": [
+              "3",
+              "2",
+              "2",
+              "2"
+            ],
+            "visibleBrokenImages": [],
+            "body": "Перейти к содержанию\nVERBA\nНаправления\nПодход\nКурорт\nЛичный маршрут\nМедицинский курорт\nПодмосковье · Сосновый бор\nVERBA\n\nЗдоровье\nв новом ритме.\n\nНайти своё направление\nВ своём темпе\nПауза видео\n01 / ВОССТАНОВЛЕНИЕ\nМедицина.\nПрирода.\nВы.\n\nПерсональное здоровье начинается с внимания к человеку. В окружении, которое помогает услышать себя.\n\nВАШ МАРШРУТ В VERBA\n\nПитание по методу Майера. Ментальное здоровье. Эстетический уход. SPA.\n\nВыбрать направление\nMAYR\n01 / 04\n\nЧЕТЫРЕ НАПРАВЛЕНИЯ\n\nКакой ритм\nнужен вам?\n01\nMAYR\n02\nMIND\n03\nBEAUTY\n04\nSPA\nЛёгкость начинается изнутри.\n\nПитание и привычки по методу Майера. Внимательный медицинский подход к пищеварению и вашему самочувствию.\n\nСоставить личный план\n\nПрограмма, длительность и противопоказания обсуждаются с врачом.\n\nВыбрано направление MAYR\n\nОСНОВА ВАШЕГО МАРШРУТА\nНачинаем\nс врача.\nКонсультация врача VERBA.\nВнимание к вашей истории.\n\nКонсультация, диагностика по показаниям и индивидуальный план.\n\n01\nПонять ваш запрос\n\nСамочувствие, привычки и личные цели — в разговоре с врачом.\n\n02\nУвидеть картину целиком\n\nСобственная диагностическая база. Обследования по показаниям.\n\n03\nНайти ваш маршрут\n\nИндивидуальный подход к питанию, восстановлению и дальнейшим шагам.\n\nНачать с вашей цели\n\nСОСНОВЫЙ БОР · 20 КМ ОТ МОСКВЫ\n\nВернуться\nк своему ритму.\nВыбрать своё направление\n\nПрирода вокруг.\nВнимание к вам.\n\nВоспроизвести сцену\n\nСтатичный кадр леса.\n\nПеред первым шагом.\nКак выбрать направление?\nНа сколько дней приезжать?\nГде находится VERBA?\nVERBA\n\nМедицинский курорт\nПушкино · Зелёная роща, 17\n\nОфициальный телефон курорта\n+7 495 151-00-51\n\nMILLER / VERBA · Экспериментальная демоверсия\nФинальная лесная сцена — художественная визуализация.\nИмеются противопоказания. Необходима консультация специалиста.",
+            "alts": [
+              "Ресторан VERBA",
+              "Гость VERBA в спокойной обстановке",
+              "VERBASKIN SEA GLOW — художественная композиция с кремом для лица, утверждённая пользователем",
+              "Бассейн VERBA с видом на сосновый бор",
+              "Консультация врача — кадр официального фильма VERBA",
+              ""
+            ],
+            "title": "VERBA — здоровье в новом ритме · MILLER",
+            "description": "Медицинский курорт VERBA: питание по методу Майера, ментальное здоровье, эстетический уход и SPA. Экспериментальная демоверсия."
+          }
+        },
+        {
+          "name": "Forest movie not fetched before its scene",
+          "status": "pass",
+          "observed": {
+            "src": null,
+            "paused": true,
+            "time": 0,
+            "ended": false,
+            "state": "poster",
+            "loop": false
+          }
+        },
+        {
+          "name": "Approved native scroll window transition",
+          "status": "pass",
+          "observed": {
+            "progress": 1,
+            "brand": "0",
+            "copy": "1",
+            "clip": "inset(12% 5% 12% 55%)"
+          }
+        },
+        {
+          "name": "Menu Escape restores focus",
+          "status": "pass",
+          "observed": "<button class=\"menu-toggle\" aria-label=\"Открыть меню\" aria-haspopup=\"dialog\" aria-controls=\"menu-dialog\"><span></span><span></span></button>"
+        },
+        {
+          "name": "Menu direction navigation",
+          "status": "pass",
+          "observed": {
+            "x": 0,
+            "y": 100.390625,
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "name": "Four directions update matched photograph/text/URL",
+          "status": "pass",
+          "observed": [
+            {
+              "key": "mayr",
+              "selected": "true",
+              "image": "assets/motion/mayr.webp",
+              "loaded": true,
+              "opacity": "1",
+              "query": "mayr",
+              "title": "Лёгкость начинается изнутри.",
+              "overflow": false
+            },
+            {
+              "key": "mind",
+              "selected": "true",
+              "image": "assets/motion/mind.webp",
+              "loaded": true,
+              "opacity": "1",
+              "query": "mind",
+              "title": "Тише вокруг. Спокойнее внутри.",
+              "overflow": false
+            },
+            {
+              "key": "beauty",
+              "selected": "true",
+              "image": "assets/motion/beauty-verbaskin-1122.webp",
+              "loaded": true,
+              "opacity": "1",
+              "query": "beauty",
+              "title": "Забота, которую вы чувствуете.",
+              "overflow": false
+            },
+            {
+              "key": "spa",
+              "selected": "true",
+              "image": "assets/motion/spa.webp",
+              "loaded": true,
+              "opacity": "1",
+              "query": "spa",
+              "title": "Снять напряжение. Почувствовать тело.",
+              "overflow": false
+            }
+          ]
+        },
+        {
+          "name": "Rapid direction choices settle on SPA",
+          "status": "pass",
+          "observed": "Снять напряжение. Почувствовать тело."
+        },
+        {
+          "name": "Keyboard tabs select MAYR",
+          "status": "pass",
+          "observed": "tab-mayr"
+        },
+        {
+          "name": "Physician scene loads and fits viewport",
+          "status": "pass",
+          "observed": []
+        },
+        {
+          "name": "Supplied forest plays once when visible",
+          "status": "pass",
+          "observed": {
+            "src": "assets/motion/verba-forest-desktop-1440p.mp4",
+            "paused": false,
+            "time": 1.961607,
+            "ended": false,
+            "state": "playing",
+            "loop": false
+          }
+        },
+        {
+          "name": "Manual forest pause holds the frame",
+          "status": "pass",
+          "observed": {
+            "paused": {
+              "src": "assets/motion/verba-forest-desktop-1440p.mp4",
+              "paused": true,
+              "time": 2.01209,
+              "ended": false,
+              "state": "paused",
+              "loop": false
+            },
+            "pausedAgain": {
+              "src": "assets/motion/verba-forest-desktop-1440p.mp4",
+              "paused": true,
+              "time": 2.01209,
+              "ended": false,
+              "state": "paused",
+              "loop": false
+            }
+          }
+        },
+        {
+          "name": "Forest holds final frame rather than looping",
+          "status": "pass",
+          "observed": {
+            "src": "assets/motion/verba-forest-desktop-1440p.mp4",
+            "paused": true,
+            "time": 12,
+            "ended": true,
+            "state": "ended",
+            "loop": false
+          }
+        },
+        {
+          "name": "Forest stays paused off screen",
+          "status": "pass",
+          "observed": {
+            "src": "assets/motion/verba-forest-desktop-1440p.mp4",
+            "paused": true,
+            "time": 12,
+            "ended": true,
+            "state": "ended",
+            "loop": false
+          }
+        },
+        {
+          "name": "Revisiting the scene preserves its final frame",
+          "status": "pass",
+          "observed": {
+            "src": "assets/motion/verba-forest-desktop-1440p.mp4",
+            "paused": true,
+            "time": 12,
+            "ended": true,
+            "state": "ended",
+            "loop": false
+          }
+        },
+        {
+          "name": "Actual motion capture encoded",
+          "status": "pass",
+          "observed": {
+            "frames": 389,
+            "encoderExit": 0,
+            "error": "",
+            "video": "/tmp/verba-poster-regression/VERBA-final-1440-motion.mp4"
+          }
+        },
+        {
+          "name": "Explicit replay is available without an automatic loop",
+          "status": "pass",
+          "observed": {
+            "src": "assets/motion/verba-forest-desktop-1440p.mp4",
+            "paused": false,
+            "time": 0.439237,
+            "ended": false,
+            "state": "playing",
+            "loop": false
+          }
+        },
+        {
+          "name": "Leaving an unfinished forest film stops playback",
+          "status": "pass",
+          "observed": {
+            "src": "assets/motion/verba-forest-desktop-1440p.mp4",
+            "paused": true,
+            "time": 0.447901,
+            "ended": false,
+            "state": "paused",
+            "loop": false
+          }
+        },
+        {
+          "name": "Return to the original hero",
+          "status": "pass",
+          "observed": {
+            "progress": 0,
+            "target": 0,
+            "reduced": false,
+            "activeDirection": "spa",
+            "videoPlaying": true
+          }
+        },
+        {
+          "name": "Contextual route selects SPA",
+          "status": "pass",
+          "observed": "spa"
+        },
+        {
+          "name": "Native empty-goal validation",
+          "status": "pass",
+          "observed": "Please select an item in the list."
+        },
+        {
+          "name": "Local downloadable plan has current brand and chosen preference",
+          "status": "pass",
+          "observed": "VERBA · предварительный личный план\n\nНаправление: MIND\nТише вокруг. Спокойнее внутри.\nПланируемая длительность: 14 дней\n\nЭто демоверсия MILLER / VERBA. Заявка не отправлена.\nПрограмму, длительность и противопоказания необходимо обсудить с врачом.\nОфициальный сайт: https://verbamayr.ru/\n"
+        },
+        {
+          "name": "Edit choice returns to the form with focus",
+          "status": "pass",
+          "observed": "mind"
+        },
+        {
+          "name": "Dialog closure unlocks page and restores focus",
+          "status": "pass",
+          "observed": "<button class=\"menu-toggle\" aria-label=\"Открыть меню\" aria-haspopup=\"dialog\" aria-controls=\"menu-dialog\"><span></span><span></span></button>"
+        },
+        {
+          "name": "Reload retains the chosen direction from URL",
+          "status": "pass",
+          "observed": "http://127.0.0.1:4183/?direction=spa#home"
+        },
+        {
+          "name": "Navigation #medicine",
+          "status": "pass",
+          "observed": {
+            "x": 72,
+            "y": 100.390625,
+            "width": 1296,
+            "height": 975.96875
+          }
+        },
+        {
+          "name": "Navigation #retreat",
+          "status": "pass",
+          "observed": {
+            "x": 0,
+            "y": 100.359375,
+            "width": 1440,
+            "height": 880
+          }
+        },
+        {
+          "name": "Route CTA #retreat [data-picker]",
+          "status": "pass",
+          "observed": ""
+        },
+        {
+          "name": "Route CTA #medicine [data-picker]",
+          "status": "pass",
+          "observed": ""
+        },
+        {
+          "name": "FAQ 0",
+          "status": "pass",
+          "observed": true
+        },
+        {
+          "name": "FAQ 1",
+          "status": "pass",
+          "observed": true
+        },
+        {
+          "name": "FAQ 2",
+          "status": "pass",
+          "observed": true
+        },
+        {
+          "name": "All internal navigation destinations exist",
+          "status": "pass",
+          "observed": [
+            {
+              "href": "#main",
+              "exists": true
+            },
+            {
+              "href": "#home",
+              "exists": true
+            },
+            {
+              "href": "#directions",
+              "exists": true
+            },
+            {
+              "href": "#medicine",
+              "exists": true
+            },
+            {
+              "href": "#retreat",
+              "exists": true
+            },
+            {
+              "href": "#directions",
+              "exists": true
+            },
+            {
+              "href": "#intro",
+              "exists": true
+            },
+            {
+              "href": "#directions",
+              "exists": true
+            },
+            {
+              "href": "#home",
+              "exists": true
+            },
+            {
+              "href": "#directions",
+              "exists": true
+            },
+            {
+              "href": "#medicine",
+              "exists": true
+            },
+            {
+              "href": "#retreat",
+              "exists": true
+            }
+          ]
+        },
+        {
+          "name": "Final no overflow/emoji/obsolete brand",
+          "status": "pass",
+          "observed": {
+            "width": 1440,
+            "overflow": false
+          }
+        },
+        {
+          "name": "Current runtime, console and HTTP resource health",
+          "status": "pass",
+          "observed": {
+            "errors": [],
+            "responses": [
+              {
+                "url": "http://127.0.0.1:4183/",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/styles.css",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/hero-pool-poster.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/app.js",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/mayr.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/clear-sans-medium.woff",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/mind.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/beauty-verbaskin-1122.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/clear-sans.woff",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/spa.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/pretext.js",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/hero-film.mp4",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/medical.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/verba-forest-poster.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/verba-forest-desktop-1440p.mp4",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/?direction=spa",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/hero-pool-poster.webp",
+                "status": 304
+              },
+              {
+                "url": "http://127.0.0.1:4183/styles.css",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/mayr.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/mind.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/beauty-verbaskin-1122.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/spa.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/medical.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/verba-forest-poster.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/clear-sans.woff",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/clear-sans-medium.woff",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/app.js",
+                "status": 304
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/pretext.js",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/hero-film.mp4",
+                "status": 206
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/verba-forest-desktop-1440p.mp4",
+                "status": 200
+              }
+            ],
+            "nonGET": []
+          }
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "mode": "Chromium touch emulation",
+      "checks": [
+        {
+          "name": "Initial hero/brand/media/resources",
+          "status": "pass",
+          "observed": {
+            "width": 390,
+            "y": 0,
+            "overflow": false,
+            "motion": {
+              "progress": 0,
+              "target": 0,
+              "reduced": false,
+              "activeDirection": "mayr",
+              "videoPlaying": true
+            },
+            "hero": {
+              "playing": true,
+              "ready": 4
+            },
+            "forest": {
+              "src": null,
+              "paused": true,
+              "time": 0,
+              "ended": false,
+              "state": "poster",
+              "loop": false
+            },
+            "pretext": [
+              "3",
+              "3",
+              "3",
+              "3"
+            ],
+            "visibleBrokenImages": [],
+            "body": "Перейти к содержанию\nVERBA\nМедицинский курорт\nПодмосковье · Сосновый бор\nVERBA\n\nЗдоровье\nв новом ритме.\n\nНайти своё направление\nВ своём темпе\n01 / ВОССТАНОВЛЕНИЕ\nМедицина.Природа.Вы.\n\nПерсональное здоровье начинается с внимания к человеку. В окружении, которое помогает услышать себя.\n\nВАШ МАРШРУТ В VERBA\n\nПитание по методу Майера. Ментальное здоровье. Эстетический уход. SPA.\n\nВыбрать направление\nMAYR\n01 / 04\n\nЧЕТЫРЕ НАПРАВЛЕНИЯ\n\nКакой ритм\nнужен вам?\n01\nMAYR\n02\nMIND\n03\nBEAUTY\n04\nSPA\nЛёгкость начинается изнутри.\n\nПитание и привычки по методу Майера. Внимательный медицинский подход к пищеварению и вашему самочувствию.\n\nСоставить личный план\n\nПрограмма, длительность и противопоказания обсуждаются с врачом.\n\nВыбрано направление MAYR\n\nОСНОВА ВАШЕГО МАРШРУТА\nНачинаем\nс врача.\nКонсультация врача VERBA.\nВнимание к вашей истории.\n\nКонсультация, диагностика по показаниям и индивидуальный план.\n\n01\nПонять ваш запрос\n\nСамочувствие, привычки и личные цели — в разговоре с врачом.\n\n02\nУвидеть картину целиком\n\nСобственная диагностическая база. Обследования по показаниям.\n\n03\nНайти ваш маршрут\n\nИндивидуальный подход к питанию, восстановлению и дальнейшим шагам.\n\nНачать с вашей цели\n\nСОСНОВЫЙ БОР · 20 КМ ОТ МОСКВЫ\n\nВернуться\nк своему ритму.\nВыбрать своё направление\n\nПрирода вокруг.\nВнимание к вам.\n\nВоспроизвести сцену\n\nСтатичный кадр леса.\n\nПеред первым шагом.\nКак выбрать направление?\nНа сколько дней приезжать?\nГде находится VERBA?\nVERBA\n\nМедицинский курорт\nПушкино · Зелёная роща, 17\n\nОфициальный телефон курорта\n+7 495 151-00-51\n\nMILLER / VERBA · Экспериментальная демоверсия\nФинальная лесная сцена — художественная визуализация.\nИмеются противопоказания. Необходима консультация специалиста.",
+            "alts": [
+              "Ресторан VERBA",
+              "Гость VERBA в спокойной обстановке",
+              "VERBASKIN SEA GLOW — художественная композиция с кремом для лица, утверждённая пользователем",
+              "Бассейн VERBA с видом на сосновый бор",
+              "Консультация врача — кадр официального фильма VERBA",
+              ""
+            ],
+            "title": "VERBA — здоровье в новом ритме · MILLER",
+            "description": "Медицинский курорт VERBA: питание по методу Майера, ментальное здоровье, эстетический уход и SPA. Экспериментальная демоверсия."
+          }
+        },
+        {
+          "name": "Forest movie not fetched before its scene",
+          "status": "pass",
+          "observed": {
+            "src": null,
+            "paused": true,
+            "time": 0,
+            "ended": false,
+            "state": "poster",
+            "loop": false
+          }
+        },
+        {
+          "name": "Approved native scroll window transition",
+          "status": "pass",
+          "observed": {
+            "progress": 1,
+            "brand": "0",
+            "copy": "1",
+            "clip": "inset(52% 5% 4%)"
+          }
+        },
+        {
+          "name": "Menu Escape restores focus",
+          "status": "pass",
+          "observed": "<button class=\"menu-toggle\" aria-label=\"Открыть меню\" aria-haspopup=\"dialog\" aria-controls=\"menu-dialog\"><span></span><span></span></button>"
+        },
+        {
+          "name": "Menu direction navigation",
+          "status": "pass",
+          "observed": {
+            "x": 0,
+            "y": 88.203125,
+            "width": 390,
+            "height": 903.125
+          }
+        },
+        {
+          "name": "Four directions update matched photograph/text/URL",
+          "status": "pass",
+          "observed": [
+            {
+              "key": "mayr",
+              "selected": "true",
+              "image": "assets/motion/mayr.webp",
+              "loaded": true,
+              "opacity": "1",
+              "query": "mayr",
+              "title": "Лёгкость начинается изнутри.",
+              "overflow": false
+            },
+            {
+              "key": "mind",
+              "selected": "true",
+              "image": "assets/motion/mind.webp",
+              "loaded": true,
+              "opacity": "1",
+              "query": "mind",
+              "title": "Тише вокруг. Спокойнее внутри.",
+              "overflow": false
+            },
+            {
+              "key": "beauty",
+              "selected": "true",
+              "image": "assets/motion/beauty-verbaskin-1122.webp",
+              "loaded": true,
+              "opacity": "1",
+              "query": "beauty",
+              "title": "Забота, которую вы чувствуете.",
+              "overflow": false
+            },
+            {
+              "key": "spa",
+              "selected": "true",
+              "image": "assets/motion/spa.webp",
+              "loaded": true,
+              "opacity": "1",
+              "query": "spa",
+              "title": "Снять напряжение. Почувствовать тело.",
+              "overflow": false
+            }
+          ]
+        },
+        {
+          "name": "Rapid direction choices settle on SPA",
+          "status": "pass",
+          "observed": "Снять напряжение. Почувствовать тело."
+        },
+        {
+          "name": "Keyboard tabs select MAYR",
+          "status": "pass",
+          "observed": "tab-mayr"
+        },
+        {
+          "name": "Physician scene loads and fits viewport",
+          "status": "pass",
+          "observed": []
+        },
+        {
+          "name": "Supplied forest plays once when visible",
+          "status": "pass",
+          "observed": {
+            "src": "assets/motion/verba-forest-mobile-1080p.mp4",
+            "paused": false,
+            "time": 2.242946,
+            "ended": false,
+            "state": "playing",
+            "loop": false
+          }
+        },
+        {
+          "name": "Manual forest pause holds the frame",
+          "status": "pass",
+          "observed": {
+            "paused": {
+              "src": "assets/motion/verba-forest-mobile-1080p.mp4",
+              "paused": true,
+              "time": 2.283629,
+              "ended": false,
+              "state": "paused",
+              "loop": false
+            },
+            "pausedAgain": {
+              "src": "assets/motion/verba-forest-mobile-1080p.mp4",
+              "paused": true,
+              "time": 2.283629,
+              "ended": false,
+              "state": "paused",
+              "loop": false
+            }
+          }
+        },
+        {
+          "name": "Forest holds final frame rather than looping",
+          "status": "pass",
+          "observed": {
+            "src": "assets/motion/verba-forest-mobile-1080p.mp4",
+            "paused": true,
+            "time": 12,
+            "ended": true,
+            "state": "ended",
+            "loop": false
+          }
+        },
+        {
+          "name": "Forest stays paused off screen",
+          "status": "pass",
+          "observed": {
+            "src": "assets/motion/verba-forest-mobile-1080p.mp4",
+            "paused": true,
+            "time": 12,
+            "ended": true,
+            "state": "ended",
+            "loop": false
+          }
+        },
+        {
+          "name": "Revisiting the scene preserves its final frame",
+          "status": "pass",
+          "observed": {
+            "src": "assets/motion/verba-forest-mobile-1080p.mp4",
+            "paused": true,
+            "time": 12,
+            "ended": true,
+            "state": "ended",
+            "loop": false
+          }
+        },
+        {
+          "name": "Actual motion capture encoded",
+          "status": "pass",
+          "observed": {
+            "frames": 405,
+            "encoderExit": 0,
+            "error": "",
+            "video": "/tmp/verba-poster-regression/VERBA-final-390-motion.mp4"
+          }
+        },
+        {
+          "name": "Explicit replay is available without an automatic loop",
+          "status": "pass",
+          "observed": {
+            "src": "assets/motion/verba-forest-mobile-1080p.mp4",
+            "paused": false,
+            "time": 0.480588,
+            "ended": false,
+            "state": "playing",
+            "loop": false
+          }
+        },
+        {
+          "name": "Leaving an unfinished forest film stops playback",
+          "status": "pass",
+          "observed": {
+            "src": "assets/motion/verba-forest-mobile-1080p.mp4",
+            "paused": true,
+            "time": 0.493499,
+            "ended": false,
+            "state": "paused",
+            "loop": false
+          }
+        },
+        {
+          "name": "Return to the original hero",
+          "status": "pass",
+          "observed": {
+            "progress": 0,
+            "target": 0,
+            "reduced": false,
+            "activeDirection": "spa",
+            "videoPlaying": true
+          }
+        },
+        {
+          "name": "Contextual route selects SPA",
+          "status": "pass",
+          "observed": "spa"
+        },
+        {
+          "name": "Native empty-goal validation",
+          "status": "pass",
+          "observed": "Please select an item in the list."
+        },
+        {
+          "name": "Local downloadable plan has current brand and chosen preference",
+          "status": "pass",
+          "observed": "VERBA · предварительный личный план\n\nНаправление: MIND\nТише вокруг. Спокойнее внутри.\nПланируемая длительность: 14 дней\n\nЭто демоверсия MILLER / VERBA. Заявка не отправлена.\nПрограмму, длительность и противопоказания необходимо обсудить с врачом.\nОфициальный сайт: https://verbamayr.ru/\n"
+        },
+        {
+          "name": "Edit choice returns to the form with focus",
+          "status": "pass",
+          "observed": "mind"
+        },
+        {
+          "name": "Dialog closure unlocks page and restores focus",
+          "status": "pass",
+          "observed": "<button class=\"menu-toggle\" aria-label=\"Открыть меню\" aria-haspopup=\"dialog\" aria-controls=\"menu-dialog\"><span></span><span></span></button>"
+        },
+        {
+          "name": "Reload retains the chosen direction from URL",
+          "status": "pass",
+          "observed": "http://127.0.0.1:4183/?direction=spa#home"
+        },
+        {
+          "name": "Navigation #medicine",
+          "status": "pass",
+          "observed": {
+            "x": 20,
+            "y": 88.125,
+            "width": 350,
+            "height": 1174.25
+          }
+        },
+        {
+          "name": "Navigation #retreat",
+          "status": "pass",
+          "observed": {
+            "x": 0,
+            "y": 88.375,
+            "width": 390,
+            "height": 760
+          }
+        },
+        {
+          "name": "Route CTA #retreat [data-picker]",
+          "status": "pass",
+          "observed": ""
+        },
+        {
+          "name": "Route CTA #medicine [data-picker]",
+          "status": "pass",
+          "observed": ""
+        },
+        {
+          "name": "FAQ 0",
+          "status": "pass",
+          "observed": true
+        },
+        {
+          "name": "FAQ 1",
+          "status": "pass",
+          "observed": true
+        },
+        {
+          "name": "FAQ 2",
+          "status": "pass",
+          "observed": true
+        },
+        {
+          "name": "All internal navigation destinations exist",
+          "status": "pass",
+          "observed": [
+            {
+              "href": "#main",
+              "exists": true
+            },
+            {
+              "href": "#home",
+              "exists": true
+            },
+            {
+              "href": "#directions",
+              "exists": true
+            },
+            {
+              "href": "#medicine",
+              "exists": true
+            },
+            {
+              "href": "#retreat",
+              "exists": true
+            },
+            {
+              "href": "#directions",
+              "exists": true
+            },
+            {
+              "href": "#intro",
+              "exists": true
+            },
+            {
+              "href": "#directions",
+              "exists": true
+            },
+            {
+              "href": "#home",
+              "exists": true
+            },
+            {
+              "href": "#directions",
+              "exists": true
+            },
+            {
+              "href": "#medicine",
+              "exists": true
+            },
+            {
+              "href": "#retreat",
+              "exists": true
+            }
+          ]
+        },
+        {
+          "name": "Final no overflow/emoji/obsolete brand",
+          "status": "pass",
+          "observed": {
+            "width": 390,
+            "overflow": false
+          }
+        },
+        {
+          "name": "Current runtime, console and HTTP resource health",
+          "status": "pass",
+          "observed": {
+            "errors": [],
+            "responses": [
+              {
+                "url": "http://127.0.0.1:4183/",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/styles.css",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/hero-pool-poster.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/app.js",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/beauty-verbaskin-1122.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/mayr.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/mind.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/clear-sans.woff",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/spa.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/clear-sans-medium.woff",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/pretext.js",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/hero-film.mp4",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/medical.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/verba-forest-poster-mobile.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/verba-forest-mobile-1080p.mp4",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/?direction=spa",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/mayr.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/mind.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/beauty-verbaskin-1122.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/spa.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/medical.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/verba-forest-poster-mobile.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/styles.css",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/hero-pool-poster.webp",
+                "status": 304
+              },
+              {
+                "url": "http://127.0.0.1:4183/app.js",
+                "status": 304
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/pretext.js",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/clear-sans.woff",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/clear-sans-medium.woff",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/hero-film.mp4",
+                "status": 206
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/verba-forest-mobile-1080p.mp4",
+                "status": 206
+              }
+            ],
+            "nonGET": []
+          }
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "mode": "Chromium touch emulation",
+      "checks": [
+        {
+          "name": "Initial hero/brand/media/resources",
+          "status": "pass",
+          "observed": {
+            "width": 375,
+            "y": 0,
+            "overflow": false,
+            "motion": {
+              "progress": 0,
+              "target": 0,
+              "reduced": false,
+              "activeDirection": "mayr",
+              "videoPlaying": true
+            },
+            "hero": {
+              "playing": true,
+              "ready": 4
+            },
+            "forest": {
+              "src": null,
+              "paused": true,
+              "time": 0,
+              "ended": false,
+              "state": "poster",
+              "loop": false
+            },
+            "pretext": [
+              "3",
+              "3",
+              "3",
+              "3"
+            ],
+            "visibleBrokenImages": [],
+            "body": "Перейти к содержанию\nVERBA\nМедицинский курорт\nПодмосковье · Сосновый бор\nVERBA\n\nЗдоровье\nв новом ритме.\n\nНайти своё направление\nВ своём темпе\n01 / ВОССТАНОВЛЕНИЕ\nМедицина.Природа.Вы.\n\nПерсональное здоровье начинается с внимания к человеку. В окружении, которое помогает услышать себя.\n\nВАШ МАРШРУТ В VERBA\n\nПитание по методу Майера. Ментальное здоровье. Эстетический уход. SPA.\n\nВыбрать направление\nMAYR\n01 / 04\n\nЧЕТЫРЕ НАПРАВЛЕНИЯ\n\nКакой ритм\nнужен вам?\n01\nMAYR\n02\nMIND\n03\nBEAUTY\n04\nSPA\nЛёгкость начинается изнутри.\n\nПитание и привычки по методу Майера. Внимательный медицинский подход к пищеварению и вашему самочувствию.\n\nСоставить личный план\n\nПрограмма, длительность и противопоказания обсуждаются с врачом.\n\nВыбрано направление MAYR\n\nОСНОВА ВАШЕГО МАРШРУТА\nНачинаем\nс врача.\nКонсультация врача VERBA.\nВнимание к вашей истории.\n\nКонсультация, диагностика по показаниям и индивидуальный план.\n\n01\nПонять ваш запрос\n\nСамочувствие, привычки и личные цели — в разговоре с врачом.\n\n02\nУвидеть картину целиком\n\nСобственная диагностическая база. Обследования по показаниям.\n\n03\nНайти ваш маршрут\n\nИндивидуальный подход к питанию, восстановлению и дальнейшим шагам.\n\nНачать с вашей цели\n\nСОСНОВЫЙ БОР · 20 КМ ОТ МОСКВЫ\n\nВернуться\nк своему ритму.\nВыбрать своё направление\n\nПрирода вокруг.\nВнимание к вам.\n\nВоспроизвести сцену\n\nСтатичный кадр леса.\n\nПеред первым шагом.\nКак выбрать направление?\nНа сколько дней приезжать?\nГде находится VERBA?\nVERBA\n\nМедицинский курорт\nПушкино · Зелёная роща, 17\n\nОфициальный телефон курорта\n+7 495 151-00-51\n\nMILLER / VERBA · Экспериментальная демоверсия\nФинальная лесная сцена — художественная визуализация.\nИмеются противопоказания. Необходима консультация специалиста.",
+            "alts": [
+              "Ресторан VERBA",
+              "Гость VERBA в спокойной обстановке",
+              "VERBASKIN SEA GLOW — художественная композиция с кремом для лица, утверждённая пользователем",
+              "Бассейн VERBA с видом на сосновый бор",
+              "Консультация врача — кадр официального фильма VERBA",
+              ""
+            ],
+            "title": "VERBA — здоровье в новом ритме · MILLER",
+            "description": "Медицинский курорт VERBA: питание по методу Майера, ментальное здоровье, эстетический уход и SPA. Экспериментальная демоверсия."
+          }
+        },
+        {
+          "name": "Forest movie not fetched before its scene",
+          "status": "pass",
+          "observed": {
+            "src": null,
+            "paused": true,
+            "time": 0,
+            "ended": false,
+            "state": "poster",
+            "loop": false
+          }
+        },
+        {
+          "name": "Approved native scroll window transition",
+          "status": "pass",
+          "observed": {
+            "progress": 1,
+            "brand": "0",
+            "copy": "1",
+            "clip": "inset(52% 5% 4%)"
+          }
+        },
+        {
+          "name": "Menu Escape restores focus",
+          "status": "pass",
+          "observed": "<button class=\"menu-toggle\" aria-label=\"Открыть меню\" aria-haspopup=\"dialog\" aria-controls=\"menu-dialog\"><span></span><span></span></button>"
+        },
+        {
+          "name": "Menu direction navigation",
+          "status": "pass",
+          "observed": {
+            "x": 0,
+            "y": 87.71875,
+            "width": 375,
+            "height": 917.8125
+          }
+        },
+        {
+          "name": "Four directions update matched photograph/text/URL",
+          "status": "pass",
+          "observed": [
+            {
+              "key": "mayr",
+              "selected": "true",
+              "image": "assets/motion/mayr.webp",
+              "loaded": true,
+              "opacity": "1",
+              "query": "mayr",
+              "title": "Лёгкость начинается изнутри.",
+              "overflow": false
+            },
+            {
+              "key": "mind",
+              "selected": "true",
+              "image": "assets/motion/mind.webp",
+              "loaded": true,
+              "opacity": "1",
+              "query": "mind",
+              "title": "Тише вокруг. Спокойнее внутри.",
+              "overflow": false
+            },
+            {
+              "key": "beauty",
+              "selected": "true",
+              "image": "assets/motion/beauty-verbaskin-1122.webp",
+              "loaded": true,
+              "opacity": "1",
+              "query": "beauty",
+              "title": "Забота, которую вы чувствуете.",
+              "overflow": false
+            },
+            {
+              "key": "spa",
+              "selected": "true",
+              "image": "assets/motion/spa.webp",
+              "loaded": true,
+              "opacity": "1",
+              "query": "spa",
+              "title": "Снять напряжение. Почувствовать тело.",
+              "overflow": false
+            }
+          ]
+        },
+        {
+          "name": "Rapid direction choices settle on SPA",
+          "status": "pass",
+          "observed": "Снять напряжение. Почувствовать тело."
+        },
+        {
+          "name": "Keyboard tabs select MAYR",
+          "status": "pass",
+          "observed": "tab-mayr"
+        },
+        {
+          "name": "Physician scene loads and fits viewport",
+          "status": "pass",
+          "observed": []
+        },
+        {
+          "name": "Supplied forest plays once when visible",
+          "status": "pass",
+          "observed": {
+            "src": "assets/motion/verba-forest-mobile-1080p.mp4",
+            "paused": false,
+            "time": 2.179184,
+            "ended": false,
+            "state": "playing",
+            "loop": false
+          }
+        },
+        {
+          "name": "Manual forest pause holds the frame",
+          "status": "pass",
+          "observed": {
+            "paused": {
+              "src": "assets/motion/verba-forest-mobile-1080p.mp4",
+              "paused": true,
+              "time": 2.194451,
+              "ended": false,
+              "state": "paused",
+              "loop": false
+            },
+            "pausedAgain": {
+              "src": "assets/motion/verba-forest-mobile-1080p.mp4",
+              "paused": true,
+              "time": 2.194451,
+              "ended": false,
+              "state": "paused",
+              "loop": false
+            }
+          }
+        },
+        {
+          "name": "Forest holds final frame rather than looping",
+          "status": "pass",
+          "observed": {
+            "src": "assets/motion/verba-forest-mobile-1080p.mp4",
+            "paused": true,
+            "time": 12,
+            "ended": true,
+            "state": "ended",
+            "loop": false
+          }
+        },
+        {
+          "name": "Forest stays paused off screen",
+          "status": "pass",
+          "observed": {
+            "src": "assets/motion/verba-forest-mobile-1080p.mp4",
+            "paused": true,
+            "time": 12,
+            "ended": true,
+            "state": "ended",
+            "loop": false
+          }
+        },
+        {
+          "name": "Revisiting the scene preserves its final frame",
+          "status": "pass",
+          "observed": {
+            "src": "assets/motion/verba-forest-mobile-1080p.mp4",
+            "paused": true,
+            "time": 12,
+            "ended": true,
+            "state": "ended",
+            "loop": false
+          }
+        },
+        {
+          "name": "Actual motion capture encoded",
+          "status": "pass",
+          "observed": {
+            "frames": 403,
+            "encoderExit": 0,
+            "error": "",
+            "video": "/tmp/verba-poster-regression/VERBA-final-375-motion.mp4"
+          }
+        },
+        {
+          "name": "Explicit replay is available without an automatic loop",
+          "status": "pass",
+          "observed": {
+            "src": "assets/motion/verba-forest-mobile-1080p.mp4",
+            "paused": false,
+            "time": 0.500393,
+            "ended": false,
+            "state": "playing",
+            "loop": false
+          }
+        },
+        {
+          "name": "Leaving an unfinished forest film stops playback",
+          "status": "pass",
+          "observed": {
+            "src": "assets/motion/verba-forest-mobile-1080p.mp4",
+            "paused": true,
+            "time": 0.506866,
+            "ended": false,
+            "state": "paused",
+            "loop": false
+          }
+        },
+        {
+          "name": "Return to the original hero",
+          "status": "pass",
+          "observed": {
+            "progress": 0,
+            "target": 0,
+            "reduced": false,
+            "activeDirection": "spa",
+            "videoPlaying": true
+          }
+        },
+        {
+          "name": "Contextual route selects SPA",
+          "status": "pass",
+          "observed": "spa"
+        },
+        {
+          "name": "Native empty-goal validation",
+          "status": "pass",
+          "observed": "Please select an item in the list."
+        },
+        {
+          "name": "Local downloadable plan has current brand and chosen preference",
+          "status": "pass",
+          "observed": "VERBA · предварительный личный план\n\nНаправление: MIND\nТише вокруг. Спокойнее внутри.\nПланируемая длительность: 14 дней\n\nЭто демоверсия MILLER / VERBA. Заявка не отправлена.\nПрограмму, длительность и противопоказания необходимо обсудить с врачом.\nОфициальный сайт: https://verbamayr.ru/\n"
+        },
+        {
+          "name": "Edit choice returns to the form with focus",
+          "status": "pass",
+          "observed": "mind"
+        },
+        {
+          "name": "Dialog closure unlocks page and restores focus",
+          "status": "pass",
+          "observed": "<button class=\"menu-toggle\" aria-label=\"Открыть меню\" aria-haspopup=\"dialog\" aria-controls=\"menu-dialog\"><span></span><span></span></button>"
+        },
+        {
+          "name": "Reload retains the chosen direction from URL",
+          "status": "pass",
+          "observed": "http://127.0.0.1:4183/?direction=spa#home"
+        },
+        {
+          "name": "Navigation #medicine",
+          "status": "pass",
+          "observed": {
+            "x": 20,
+            "y": 87.921875,
+            "width": 335,
+            "height": 1165.8125
+          }
+        },
+        {
+          "name": "Navigation #retreat",
+          "status": "pass",
+          "observed": {
+            "x": 0,
+            "y": 87.734375,
+            "width": 375,
+            "height": 760
+          }
+        },
+        {
+          "name": "Route CTA #retreat [data-picker]",
+          "status": "pass",
+          "observed": ""
+        },
+        {
+          "name": "Route CTA #medicine [data-picker]",
+          "status": "pass",
+          "observed": ""
+        },
+        {
+          "name": "FAQ 0",
+          "status": "pass",
+          "observed": true
+        },
+        {
+          "name": "FAQ 1",
+          "status": "pass",
+          "observed": true
+        },
+        {
+          "name": "FAQ 2",
+          "status": "pass",
+          "observed": true
+        },
+        {
+          "name": "All internal navigation destinations exist",
+          "status": "pass",
+          "observed": [
+            {
+              "href": "#main",
+              "exists": true
+            },
+            {
+              "href": "#home",
+              "exists": true
+            },
+            {
+              "href": "#directions",
+              "exists": true
+            },
+            {
+              "href": "#medicine",
+              "exists": true
+            },
+            {
+              "href": "#retreat",
+              "exists": true
+            },
+            {
+              "href": "#directions",
+              "exists": true
+            },
+            {
+              "href": "#intro",
+              "exists": true
+            },
+            {
+              "href": "#directions",
+              "exists": true
+            },
+            {
+              "href": "#home",
+              "exists": true
+            },
+            {
+              "href": "#directions",
+              "exists": true
+            },
+            {
+              "href": "#medicine",
+              "exists": true
+            },
+            {
+              "href": "#retreat",
+              "exists": true
+            }
+          ]
+        },
+        {
+          "name": "Final no overflow/emoji/obsolete brand",
+          "status": "pass",
+          "observed": {
+            "width": 375,
+            "overflow": false
+          }
+        },
+        {
+          "name": "Current runtime, console and HTTP resource health",
+          "status": "pass",
+          "observed": {
+            "errors": [],
+            "responses": [
+              {
+                "url": "http://127.0.0.1:4183/",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/hero-pool-poster.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/styles.css",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/app.js",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/pretext.js",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/mayr.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/mind.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/clear-sans.woff",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/beauty-verbaskin-1122.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/spa.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/clear-sans-medium.woff",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/hero-film.mp4",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/medical.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/verba-forest-poster-mobile.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/verba-forest-mobile-1080p.mp4",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/?direction=spa",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/mayr.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/mind.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/beauty-verbaskin-1122.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/spa.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/medical.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/verba-forest-poster-mobile.webp",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/styles.css",
+                "status": 304
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/hero-pool-poster.webp",
+                "status": 304
+              },
+              {
+                "url": "http://127.0.0.1:4183/app.js",
+                "status": 304
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/pretext.js",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/clear-sans.woff",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/clear-sans-medium.woff",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/hero-film.mp4",
+                "status": 206
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/favicon.svg",
+                "status": 200
+              },
+              {
+                "url": "http://127.0.0.1:4183/assets/motion/verba-forest-mobile-1080p.mp4",
+                "status": 206
+              }
+            ],
+            "nonGET": []
+          }
+        }
+      ]
+    },
+    {
+      "mode": "reduced-motion",
+      "width": 1440,
+      "status": "pass",
+      "observed": {
+        "initial": {
+          "playing": false,
+          "ready": 0
+        },
+        "forest": {
+          "src": null,
+          "paused": true,
+          "time": 0,
+          "ended": false,
+          "state": "poster",
+          "loop": false
+        },
+        "transforms": {
+          "camera": "none",
+          "forest": "none",
+          "clip": "none"
+        }
+      }
+    },
+    {
+      "mode": "reduced-motion",
+      "width": 390,
+      "status": "pass",
+      "observed": {
+        "initial": {
+          "playing": false,
+          "ready": 0
+        },
+        "forest": {
+          "src": null,
+          "paused": true,
+          "time": 0,
+          "ended": false,
+          "state": "poster",
+          "loop": false
+        },
+        "transforms": {
+          "camera": "none",
+          "forest": "none",
+          "clip": "none"
+        }
+      }
+    },
+    {
+      "mode": "reduced-motion",
+      "width": 375,
+      "status": "pass",
+      "observed": {
+        "initial": {
+          "playing": false,
+          "ready": 0
+        },
+        "forest": {
+          "src": null,
+          "paused": true,
+          "time": 0,
+          "ended": false,
+          "state": "poster",
+          "loop": false
+        },
+        "transforms": {
+          "camera": "none",
+          "forest": "none",
+          "clip": "none"
+        }
+      }
+    },
+    {
+      "mode": "autoplay-rejection-fixture",
+      "status": "pass",
+      "observed": {
+        "before": {
+          "src": "assets/motion/verba-forest-mobile-1080p.mp4",
+          "paused": true,
+          "time": 0,
+          "ended": false,
+          "state": "poster",
+          "loop": false
+        },
+        "after": {
+          "src": "assets/motion/verba-forest-mobile-1080p.mp4",
+          "paused": false,
+          "time": 0.853531,
+          "ended": false,
+          "state": "playing",
+          "loop": false
+        }
+      }
+    },
+    {
+      "mode": "unavailable-media-fixture",
+      "status": "pass",
+      "observed": {
+        "src": "assets/motion/verba-forest-mobile-1080p.mp4",
+        "paused": true,
+        "time": 0,
+        "ended": false,
+        "state": "poster",
+        "loop": false
+      }
+    }
+  ],
+  "limits": [
+    "Chromium 154 on Linux. 390/375 use Pixel 7 touch emulation; no physical iPhone or Safari.",
+    "Autoplay-denial and unavailable-media cases use explicit fixtures; they are not an iOS policy test.",
+    "CDP captures are encoded at 30 fps, not a performance guarantee."
+  ]
+}

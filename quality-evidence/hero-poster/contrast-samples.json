@@ -1,0 +1,110 @@
+[
+  {
+    "scene": "contrast-375",
+    "text": "Медицинский курорт",
+    "min": 5.54,
+    "threshold": 4.5
+  },
+  {
+    "scene": "contrast-375",
+    "text": "Подмосковье · Сосновый бор",
+    "min": 4.58,
+    "threshold": 4.5
+  },
+  {
+    "scene": "contrast-375",
+    "text": "VERBA",
+    "min": 3.58,
+    "threshold": 3
+  },
+  {
+    "scene": "contrast-375",
+    "text": "Здоровьев новом ритме.",
+    "min": 3.72,
+    "threshold": 3
+  },
+  {
+    "scene": "contrast-375",
+    "text": "В своём темпе",
+    "min": 5.71,
+    "threshold": 4.5
+  },
+  {
+    "scene": "contrast-375",
+    "text": "Воспроизвести",
+    "min": 5.53,
+    "threshold": 4.5
+  },
+  {
+    "scene": "contrast-390",
+    "text": "Медицинский курорт",
+    "min": 5.65,
+    "threshold": 4.5
+  },
+  {
+    "scene": "contrast-390",
+    "text": "Подмосковье · Сосновый бор",
+    "min": 4.57,
+    "threshold": 4.5
+  },
+  {
+    "scene": "contrast-390",
+    "text": "VERBA",
+    "min": 3.43,
+    "threshold": 3
+  },
+  {
+    "scene": "contrast-390",
+    "text": "Здоровьев новом ритме.",
+    "min": 3.93,
+    "threshold": 3
+  },
+  {
+    "scene": "contrast-390",
+    "text": "В своём темпе",
+    "min": 5.71,
+    "threshold": 4.5
+  },
+  {
+    "scene": "contrast-390",
+    "text": "Воспроизвести",
+    "min": 5.46,
+    "threshold": 4.5
+  },
+  {
+    "scene": "contrast-1440",
+    "text": "Медицинский курорт",
+    "min": 6.04,
+    "threshold": 4.5
+  },
+  {
+    "scene": "contrast-1440",
+    "text": "Подмосковье · Сосновый бор",
+    "min": 6.11,
+    "threshold": 4.5
+  },
+  {
+    "scene": "contrast-1440",
+    "text": "VERBA",
+    "min": 3.87,
+    "threshold": 3
+  },
+  {
+    "scene": "contrast-1440",
+    "text": "Здоровьев новом ритме.",
+    "min": 4.04,
+    "threshold": 3
+  },
+  {
+    "scene": "contrast-1440",
+    "text": "В своём темпе",
+    "min": 5.52,
+    "threshold": 4.5
+  },
+  {
+    "scene": "contrast-1440",
+    "text": "Воспроизвести",
+    "min": 5.51,
+    "threshold": 4.5
+  }
+]

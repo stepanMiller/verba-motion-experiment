@@ -1,0 +1,32 @@
+[
+  {
+    "width": 1440,
+    "initialMP4Requests": 0,
+    "manualVideo": {
+      "width": 1280,
+      "height": 720,
+      "position": "50% 50%",
+      "grade": true
+    }
+  },
+  {
+    "width": 390,
+    "initialMP4Requests": 0,
+    "manualVideo": {
+      "width": 1280,
+      "height": 720,
+      "position": "50% 50%",
+      "grade": true
+    }
+  },
+  {
+    "width": 375,
+    "initialMP4Requests": 0,
+    "manualVideo": {
+      "width": 1280,
+      "height": 720,
+      "position": "50% 50%",
+      "grade": true
+    }
+  }
+]
