@@ -10,12 +10,13 @@ def data_url(name):
 html = (root / 'index.html').read_text()
 css = (root / 'styles.css').read_text()
 css = re.sub(r"url\(['\"]?(assets/[^)'\"]+)['\"]?\)", lambda m: 'url("' + data_url(m[1]) + '")', css)
-html = re.sub(r'(src|href|poster|data-src)="(assets/[^\"]+)"', lambda m: m[1] + '="' + data_url(m[2]) + '"', html)
+html = re.sub(r'(src|href|poster|data-src|data-src-mobile)="(assets/[^\"]+)"', lambda m: m[1] + '="' + data_url(m[2]) + '"', html)
 # Embed every responsive candidate too; otherwise file:// opens select missing paths.
 def embed_srcset(match):
     candidates = []
     for candidate in match[1].split(','):
-        name, descriptor = candidate.strip().split()
+        parts = candidate.strip().split()
+        name, descriptor = parts[0], ' '.join(parts[1:])
         candidates.append(data_url(name) + ' ' + descriptor)
     return 'srcset="' + ', '.join(candidates) + '"'
 html = re.sub(r'srcset="([^"]+)"', embed_srcset, html)

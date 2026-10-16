@@ -1,0 +1,92 @@
+[
+  {
+    "scene": "retreat-375",
+    "text": "СОСНОВЫЙ БОР · 20 КМ ОТ МОСКВЫ",
+    "min": 5.39,
+    "threshold": 4.5
+  },
+  {
+    "scene": "retreat-375",
+    "text": "Вернутьсяк своему ритму.",
+    "min": 5.35,
+    "threshold": 3
+  },
+  {
+    "scene": "retreat-375",
+    "text": "Выбрать своё направление",
+    "min": 11.95,
+    "threshold": 4.5
+  },
+  {
+    "scene": "retreat-375",
+    "text": "Природа вокруг.Внимание к вам.",
+    "min": 7.05,
+    "threshold": 4.5
+  },
+  {
+    "scene": "retreat-375",
+    "text": "Воспроизвести сцену",
+    "min": 10.79,
+    "threshold": 4.5
+  },
+  {
+    "scene": "retreat-390",
+    "text": "СОСНОВЫЙ БОР · 20 КМ ОТ МОСКВЫ",
+    "min": 5.88,
+    "threshold": 4.5
+  },
+  {
+    "scene": "retreat-390",
+    "text": "Вернутьсяк своему ритму.",
+    "min": 5.34,
+    "threshold": 3
+  },
+  {
+    "scene": "retreat-390",
+    "text": "Выбрать своё направление",
+    "min": 11.95,
+    "threshold": 4.5
+  },
+  {
+    "scene": "retreat-390",
+    "text": "Природа вокруг.Внимание к вам.",
+    "min": 7.36,
+    "threshold": 4.5
+  },
+  {
+    "scene": "retreat-390",
+    "text": "Воспроизвести сцену",
+    "min": 10.63,
+    "threshold": 4.5
+  },
+  {
+    "scene": "retreat-1440",
+    "text": "СОСНОВЫЙ БОР · 20 КМ ОТ МОСКВЫ",
+    "min": 7.89,
+    "threshold": 4.5
+  },
+  {
+    "scene": "retreat-1440",
+    "text": "Вернутьсяк своему ритму.",
+    "min": 4.32,
+    "threshold": 3
+  },
+  {
+    "scene": "retreat-1440",
+    "text": "Выбрать своё направление",
+    "min": 11.95,
+    "threshold": 4.5
+  },
+  {
+    "scene": "retreat-1440",
+    "text": "Природа вокруг.Внимание к вам.",
+    "min": 9.32,
+    "threshold": 4.5
+  },
+  {
+    "scene": "retreat-1440",
+    "text": "Воспроизвести сцену",
+    "min": 8.34,
+    "threshold": 4.5
+  }
+]

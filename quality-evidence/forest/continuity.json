@@ -1,0 +1,54 @@
+[
+  {
+    "file": "verba-forest-desktop-1440p.mp4",
+    "frames": 288,
+    "last_to_first_luma_mae_0_255": 0.7263,
+    "adjacent_median_mae": 1.4797,
+    "adjacent_max_mae": 2.6919,
+    "turnaround_frames_138_to_150_mae": [
+      0.4205,
+      0.4216,
+      0.2545,
+      0.2456,
+      0.1724,
+      0.1172,
+      0.0224,
+      0.0174,
+      0.0489,
+      0.057,
+      0.1699,
+      0.2764,
+      0.3576
+    ],
+    "mean_luma_range": [
+      95.327,
+      105.182
+    ]
+  },
+  {
+    "file": "verba-forest-mobile-1080p.mp4",
+    "frames": 288,
+    "last_to_first_luma_mae_0_255": 1.0542,
+    "adjacent_median_mae": 1.4747,
+    "adjacent_max_mae": 2.9224,
+    "turnaround_frames_138_to_150_mae": [
+      0.4749,
+      0.4826,
+      0.2727,
+      0.2758,
+      0.1846,
+      0.1232,
+      0.1159,
+      0.0331,
+      0.1015,
+      0.0807,
+      0.098,
+      0.2338,
+      0.3742
+    ],
+    "mean_luma_range": [
+      95.431,
+      105.627
+    ]
+  }
+]

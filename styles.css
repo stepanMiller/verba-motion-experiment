@@ -106,3 +106,7 @@ dialog{border:0;padding:0;width:min(560px,calc(100% - 32px));max-height:calc(100
 .directions[data-active=beauty] .path-shade{background:linear-gradient(0deg,var(--scene-paper),transparent 30%)}
 @media(max-width:600px){.directions[data-active=beauty] .path-visual{height:440px}.beauty-image{object-position:48% 20%}}
 .directions[data-active=beauty] .path-panel>p,.directions[data-active=beauty] .medical-note{color:#3b453a}
+
+/* Responsive poster stays behind video, including autoplay/error fallbacks. */
+.retreat-poster>img{width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+@media(max-width:600px){.retreat-poster>img{object-position:48% 50%}}

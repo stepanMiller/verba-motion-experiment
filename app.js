@@ -24,7 +24,7 @@ function videoUI(){const paused=video.paused;$('#video-toggle').setAttribute('ar
 function syncVideo(){if(document.hidden||!heroInView||userPaused||(reduced.matches&&!manualVideo))video.pause();else {if(!video.getAttribute('src')){video.src=video.dataset.src;video.load();}video.play().catch(videoUI);}videoUI();}
 video.addEventListener('canplay',syncVideo);video.addEventListener('play',videoUI);video.addEventListener('pause',videoUI);document.addEventListener('visibilitychange',syncVideo);$('#video-toggle').addEventListener('click',()=>{userPaused=!video.paused;manualVideo=!userPaused;syncVideo();});reduced.addEventListener('change',()=>{manualVideo=false;progress=0;syncVideo();measureMotion();});new IntersectionObserver(entries=>{heroInView=entries[0].isIntersecting;syncVideo();},{threshold:.02}).observe(hero);
 
-// Supplied five-second forest film: lazy, one-shot, held final frame.
+// Approved upscaled forest B: responsive, lazy, one-shot, held final frame.
 // Replays require an explicit click; returning to the section never resets time.
 const forest=$('#forest-video'),retreat=$('#retreat'),forestToggle=$('#forest-toggle');
 const forestState={visible:false,loaded:false,finished:false,userPaused:false,manual:false,blocked:false,pending:false,started:false};
@@ -37,7 +37,7 @@ function forestUI(){
  retreat.dataset.videoState=forestState.finished?'ended':forestState.started?(playing?'playing':'paused'):'poster';
  $('#forest-status').textContent=forestState.finished?'Сцена завершена. Последний кадр сохранён.':forestState.blocked?'Нажмите «Воспроизвести сцену», чтобы запустить видео.':playing?'Лесная сцена воспроизводится.':'Статичный кадр леса.';
 }
-function loadForest(){if(forestState.loaded)return;forest.src=forest.dataset.src;forest.load();forestState.loaded=true;}
+function loadForest(){if(forestState.loaded)return;forest.src=mobile.matches?forest.dataset.srcMobile:forest.dataset.src;forest.load();forestState.loaded=true;}
 function syncForest(){
  if(document.hidden||!forestState.visible||forestState.userPaused||forestState.finished||(reduced.matches&&!forestState.manual)){forest.pause();forestUI();return;}
  if(forestState.blocked||forestState.pending)return;

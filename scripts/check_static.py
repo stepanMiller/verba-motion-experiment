@@ -13,7 +13,7 @@ class Page(HTMLParser):
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         if a.get('id'): self.ids.append(a['id'])
-        for key in ['src', 'href', 'poster', 'data-src']:
+        for key in ['src', 'href', 'poster', 'data-src', 'data-src-mobile']:
             value = a.get(key, '')
             if value.startswith('assets/'): self.refs.add(value)
         for candidate in a.get('srcset', '').split(','):
@@ -42,7 +42,8 @@ def inspect():
         if re.search(r'AKIA[0-9A-Z]{16}|gh[pousr]_[A-Za-z0-9]{30,}|-----BEGIN (?:RSA |OPENSSH )?PRIVATE KEY', content): errors.append('Possible credential in '+name)
     forest = page.videos.get('forest-video', {})
     if 'src' in forest or 'loop' in forest or forest.get('preload') != 'none': errors.append('Forest must be lazy and non-looping')
-    if not forest.get('poster') or not forest.get('data-src'): errors.append('Forest poster/source missing')
+    if not forest.get('data-src') or not forest.get('data-src-mobile'): errors.append('Responsive forest sources missing')
+    if 'assets/motion/verba-forest-poster.webp' not in page.refs or 'assets/motion/verba-forest-poster-mobile.webp' not in page.refs: errors.append('Responsive forest posters missing')
     hero = page.videos.get('hero-video', {})
     if 'src' in hero or hero.get('preload') != 'none' or not hero.get('data-src'): errors.append('Hero must defer video loading until motion is allowed')
     if hero.get('poster') != 'assets/motion/hero-poster.webp': errors.append('Approved hero poster changed')

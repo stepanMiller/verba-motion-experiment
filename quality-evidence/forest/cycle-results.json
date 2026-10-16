@@ -1,0 +1,143 @@
+{
+  "status": "pass",
+  "results": [
+    {
+      "width": 1440,
+      "motion": "no-preference",
+      "cycles": [
+        {
+          "time": 12,
+          "duration": 12,
+          "paused": true,
+          "ended": true,
+          "width": 2560,
+          "height": 1440,
+          "source": "http://127.0.0.1:4181/assets/motion/verba-forest-desktop-1440p.mp4",
+          "quality": 288,
+          "dropped": 3
+        },
+        {
+          "time": 12,
+          "duration": 12,
+          "paused": true,
+          "ended": true,
+          "width": 2560,
+          "height": 1440,
+          "source": "http://127.0.0.1:4181/assets/motion/verba-forest-desktop-1440p.mp4",
+          "quality": 576,
+          "dropped": 7
+        },
+        {
+          "time": 12,
+          "duration": 12,
+          "paused": true,
+          "ended": true,
+          "width": 2560,
+          "height": 1440,
+          "source": "http://127.0.0.1:4181/assets/motion/verba-forest-desktop-1440p.mp4",
+          "quality": 864,
+          "dropped": 7
+        }
+      ],
+      "movies": [
+        "http://127.0.0.1:4181/assets/motion/verba-forest-desktop-1440p.mp4"
+      ],
+      "initialPosters": [
+        "http://127.0.0.1:4181/assets/motion/verba-forest-poster.webp"
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "motion": "no-preference",
+      "cycles": [
+        {
+          "time": 12,
+          "duration": 12,
+          "paused": true,
+          "ended": true,
+          "width": 1920,
+          "height": 1080,
+          "source": "http://127.0.0.1:4181/assets/motion/verba-forest-mobile-1080p.mp4",
+          "quality": 288,
+          "dropped": 2
+        },
+        {
+          "time": 12,
+          "duration": 12,
+          "paused": true,
+          "ended": true,
+          "width": 1920,
+          "height": 1080,
+          "source": "http://127.0.0.1:4181/assets/motion/verba-forest-mobile-1080p.mp4",
+          "quality": 576,
+          "dropped": 2
+        },
+        {
+          "time": 12,
+          "duration": 12,
+          "paused": true,
+          "ended": true,
+          "width": 1920,
+          "height": 1080,
+          "source": "http://127.0.0.1:4181/assets/motion/verba-forest-mobile-1080p.mp4",
+          "quality": 864,
+          "dropped": 2
+        }
+      ],
+      "movies": [
+        "http://127.0.0.1:4181/assets/motion/verba-forest-mobile-1080p.mp4"
+      ],
+      "initialPosters": [
+        "http://127.0.0.1:4181/assets/motion/verba-forest-poster-mobile.webp"
+      ],
+      "errors": []
+    },
+    {
+      "width": 375,
+      "motion": "reduce",
+      "cycles": [
+        {
+          "time": 12,
+          "duration": 12,
+          "paused": true,
+          "ended": true,
+          "width": 1920,
+          "height": 1080,
+          "source": "http://127.0.0.1:4181/assets/motion/verba-forest-mobile-1080p.mp4",
+          "quality": 288,
+          "dropped": 1
+        },
+        {
+          "time": 12,
+          "duration": 12,
+          "paused": true,
+          "ended": true,
+          "width": 1920,
+          "height": 1080,
+          "source": "http://127.0.0.1:4181/assets/motion/verba-forest-mobile-1080p.mp4",
+          "quality": 576,
+          "dropped": 1
+        },
+        {
+          "time": 12,
+          "duration": 12,
+          "paused": true,
+          "ended": true,
+          "width": 1920,
+          "height": 1080,
+          "source": "http://127.0.0.1:4181/assets/motion/verba-forest-mobile-1080p.mp4",
+          "quality": 864,
+          "dropped": 1
+        }
+      ],
+      "movies": [
+        "http://127.0.0.1:4181/assets/motion/verba-forest-mobile-1080p.mp4"
+      ],
+      "initialPosters": [
+        "http://127.0.0.1:4181/assets/motion/verba-forest-poster-mobile.webp"
+      ],
+      "errors": []
+    }
+  ]
+}
