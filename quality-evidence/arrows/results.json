@@ -1,0 +1,424 @@
+{
+  "status": "pass",
+  "browser": "154.0.8037.57",
+  "results": [
+    {
+      "width": 1440,
+      "reducedMotion": "no-preference",
+      "icons": 14,
+      "semantics": "pass",
+      "focus": {
+        "visible": true,
+        "style": "solid",
+        "width": "2px"
+      },
+      "motion": {
+        "transform": "matrix(1, 0, 0, 1, 3, 0)",
+        "duration": "0.25s"
+      },
+      "targets": [
+        {
+          "name": "Личный маршрут",
+          "width": 186.859375,
+          "height": 44
+        },
+        {
+          "name": "Найти своё направление",
+          "width": 229.171875,
+          "height": 48
+        },
+        {
+          "name": "В своём темпе",
+          "width": 115.328125,
+          "height": 44
+        },
+        {
+          "name": "Выбрать направление",
+          "width": 260,
+          "height": 48
+        },
+        {
+          "name": "01MAYR",
+          "width": 489.59375,
+          "height": 72
+        },
+        {
+          "name": "02MIND",
+          "width": 489.59375,
+          "height": 72
+        },
+        {
+          "name": "03BEAUTY",
+          "width": 489.59375,
+          "height": 72
+        },
+        {
+          "name": "04SPA",
+          "width": 489.59375,
+          "height": 72
+        },
+        {
+          "name": "Составить личный план",
+          "width": 489.59375,
+          "height": 48
+        },
+        {
+          "name": "Начать с вашей цели",
+          "width": 200.953125,
+          "height": 48
+        },
+        {
+          "name": "Выбрать своё направление",
+          "width": 283.234375,
+          "height": 56
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "reducedMotion": "reduce",
+      "icons": 14,
+      "semantics": "pass",
+      "focus": {
+        "visible": true,
+        "style": "solid",
+        "width": "2px"
+      },
+      "motion": {
+        "transform": "none",
+        "duration": "0s"
+      },
+      "targets": [
+        {
+          "name": "Личный маршрут",
+          "width": 186.859375,
+          "height": 44
+        },
+        {
+          "name": "Найти своё направление",
+          "width": 229.171875,
+          "height": 48
+        },
+        {
+          "name": "В своём темпе",
+          "width": 115.328125,
+          "height": 44
+        },
+        {
+          "name": "Выбрать направление",
+          "width": 260,
+          "height": 48
+        },
+        {
+          "name": "01MAYR",
+          "width": 489.59375,
+          "height": 72
+        },
+        {
+          "name": "02MIND",
+          "width": 489.59375,
+          "height": 72
+        },
+        {
+          "name": "03BEAUTY",
+          "width": 489.59375,
+          "height": 72
+        },
+        {
+          "name": "04SPA",
+          "width": 489.59375,
+          "height": 72
+        },
+        {
+          "name": "Составить личный план",
+          "width": 489.59375,
+          "height": 48
+        },
+        {
+          "name": "Начать с вашей цели",
+          "width": 200.953125,
+          "height": 48
+        },
+        {
+          "name": "Выбрать своё направление",
+          "width": 283.234375,
+          "height": 56
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "reducedMotion": "no-preference",
+      "icons": 14,
+      "semantics": "pass",
+      "focus": {
+        "visible": true,
+        "style": "solid",
+        "width": "2px"
+      },
+      "motion": {
+        "transform": "matrix(1, 0, 0, 1, 3, 0)",
+        "duration": "0.25s"
+      },
+      "targets": [
+        {
+          "name": "Найти своё направление",
+          "width": 290,
+          "height": 48
+        },
+        {
+          "name": "В своём темпе",
+          "width": 113.328125,
+          "height": 44
+        },
+        {
+          "name": "Выбрать направление",
+          "width": 350,
+          "height": 48
+        },
+        {
+          "name": "01MAYR",
+          "width": 87.5,
+          "height": 80
+        },
+        {
+          "name": "02MIND",
+          "width": 87.5,
+          "height": 80
+        },
+        {
+          "name": "03BEAUTY",
+          "width": 87.5,
+          "height": 80
+        },
+        {
+          "name": "04SPA",
+          "width": 87.5,
+          "height": 80
+        },
+        {
+          "name": "Составить личный план",
+          "width": 350,
+          "height": 48
+        },
+        {
+          "name": "Начать с вашей цели",
+          "width": 200.953125,
+          "height": 48
+        },
+        {
+          "name": "Выбрать своё направление",
+          "width": 350,
+          "height": 56
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "reducedMotion": "reduce",
+      "icons": 14,
+      "semantics": "pass",
+      "focus": {
+        "visible": true,
+        "style": "solid",
+        "width": "2px"
+      },
+      "motion": {
+        "transform": "none",
+        "duration": "0s"
+      },
+      "targets": [
+        {
+          "name": "Найти своё направление",
+          "width": 290,
+          "height": 48
+        },
+        {
+          "name": "В своём темпе",
+          "width": 113.328125,
+          "height": 44
+        },
+        {
+          "name": "Выбрать направление",
+          "width": 350,
+          "height": 48
+        },
+        {
+          "name": "01MAYR",
+          "width": 87.5,
+          "height": 80
+        },
+        {
+          "name": "02MIND",
+          "width": 87.5,
+          "height": 80
+        },
+        {
+          "name": "03BEAUTY",
+          "width": 87.5,
+          "height": 80
+        },
+        {
+          "name": "04SPA",
+          "width": 87.5,
+          "height": 80
+        },
+        {
+          "name": "Составить личный план",
+          "width": 350,
+          "height": 48
+        },
+        {
+          "name": "Начать с вашей цели",
+          "width": 200.953125,
+          "height": 48
+        },
+        {
+          "name": "Выбрать своё направление",
+          "width": 350,
+          "height": 56
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 375,
+      "reducedMotion": "no-preference",
+      "icons": 14,
+      "semantics": "pass",
+      "focus": {
+        "visible": true,
+        "style": "solid",
+        "width": "2px"
+      },
+      "motion": {
+        "transform": "matrix(1, 0, 0, 1, 3, 0)",
+        "duration": "0.25s"
+      },
+      "targets": [
+        {
+          "name": "Найти своё направление",
+          "width": 290,
+          "height": 48
+        },
+        {
+          "name": "В своём темпе",
+          "width": 113.328125,
+          "height": 44
+        },
+        {
+          "name": "Выбрать направление",
+          "width": 335,
+          "height": 48
+        },
+        {
+          "name": "01MAYR",
+          "width": 83.75,
+          "height": 80
+        },
+        {
+          "name": "02MIND",
+          "width": 83.75,
+          "height": 80
+        },
+        {
+          "name": "03BEAUTY",
+          "width": 83.75,
+          "height": 80
+        },
+        {
+          "name": "04SPA",
+          "width": 83.75,
+          "height": 80
+        },
+        {
+          "name": "Составить личный план",
+          "width": 335,
+          "height": 48
+        },
+        {
+          "name": "Начать с вашей цели",
+          "width": 200.953125,
+          "height": 48
+        },
+        {
+          "name": "Выбрать своё направление",
+          "width": 335,
+          "height": 56
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 375,
+      "reducedMotion": "reduce",
+      "icons": 14,
+      "semantics": "pass",
+      "focus": {
+        "visible": true,
+        "style": "solid",
+        "width": "2px"
+      },
+      "motion": {
+        "transform": "none",
+        "duration": "0s"
+      },
+      "targets": [
+        {
+          "name": "Найти своё направление",
+          "width": 290,
+          "height": 48
+        },
+        {
+          "name": "В своём темпе",
+          "width": 113.328125,
+          "height": 44
+        },
+        {
+          "name": "Выбрать направление",
+          "width": 335,
+          "height": 48
+        },
+        {
+          "name": "01MAYR",
+          "width": 83.75,
+          "height": 80
+        },
+        {
+          "name": "02MIND",
+          "width": 83.75,
+          "height": 80
+        },
+        {
+          "name": "03BEAUTY",
+          "width": 83.75,
+          "height": 80
+        },
+        {
+          "name": "04SPA",
+          "width": 83.75,
+          "height": 80
+        },
+        {
+          "name": "Составить личный план",
+          "width": 335,
+          "height": 48
+        },
+        {
+          "name": "Начать с вашей цели",
+          "width": 200.953125,
+          "height": 48
+        },
+        {
+          "name": "Выбрать своё направление",
+          "width": 335,
+          "height": 56
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

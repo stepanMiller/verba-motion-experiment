@@ -42,3 +42,12 @@ dialog{border:0;padding:0;width:min(560px,calc(100% - 32px));max-height:calc(100
 .forest-toggle svg{width:18px;height:18px}.forest-toggle:hover{background:#10241cb5}
 @media(max-width:600px){.retreat-photo>.retreat-poster,.retreat-photo>#forest-video{object-position:48% 50%}.retreat-shade{background:linear-gradient(90deg,#0b241bde,#0b241b6b),linear-gradient(0deg,#0b241b80,transparent 50%)}.forest-toggle{right:20px;bottom:24px;max-width:calc(100% - 40px)}.retreat-content{padding-bottom:100px}}
 @media(prefers-reduced-motion:reduce){#forest-video{transition:none}}
+
+/* Unified directional icons: text supplies the accessible control name. */
+.icon-arrow{width:24px;height:24px;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;pointer-events:none;transition:transform .22s var(--ease),opacity .22s var(--ease)}
+:is(.line-link,.header-plan,.solid-button,.scroll-link):is(:hover,:focus-visible)>.icon-arrow-right{transform:translateX(3px)}
+:is(.line-link,.scroll-link):is(:hover,:focus-visible)>.icon-arrow-down{transform:translateY(3px)}
+.path-tab:focus-visible>.icon-arrow{opacity:1;transform:translateX(0)}
+:is(.line-link,.header-plan,.solid-button,.scroll-link,.path-tab):focus-visible{outline:2px solid currentColor;outline-offset:5px}
+@media(hover:none){:is(.line-link,.header-plan,.solid-button,.scroll-link):hover>.icon-arrow{transform:none}}
+@media(prefers-reduced-motion:reduce){.icon-arrow{transition:none!important;transform:none!important}}
