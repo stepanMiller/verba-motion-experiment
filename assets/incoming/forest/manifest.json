@@ -1,0 +1,92 @@
+{
+  "format": "base64 transport, concatenate ordered parts then decode",
+  "files": [
+    {
+      "filename": "verba-forest-desktop-1440p.mp4",
+      "bytes": 12170180,
+      "sha256": "4c7d9a0283f7149deca88c521e5c9b35b0997d91bb11625ab17a2d890f543dac",
+      "encoding": "base64",
+      "parts": [
+        {
+          "path": "assets/incoming/forest/verba-forest-desktop-1440p.mp4.base64.part01",
+          "bytes": 2800001,
+          "sha256": "1142b0da576de243a8920c94c90bc71eacb83c5347090b8364656d170943b17e"
+        },
+        {
+          "path": "assets/incoming/forest/verba-forest-desktop-1440p.mp4.base64.part02",
+          "bytes": 2800001,
+          "sha256": "82008160def04200986ce8a04185af02ee7016e6fac252811827610d6cbe0e31"
+        },
+        {
+          "path": "assets/incoming/forest/verba-forest-desktop-1440p.mp4.base64.part03",
+          "bytes": 2800001,
+          "sha256": "a09af6d88b5eb859f2d07e67c1c177da8a8efb58f32492335634d025bfe6337d"
+        },
+        {
+          "path": "assets/incoming/forest/verba-forest-desktop-1440p.mp4.base64.part04",
+          "bytes": 2800001,
+          "sha256": "ebc6465deeb664c17c9db84a9403974934774da56e8bea589b7232a2de71305f"
+        },
+        {
+          "path": "assets/incoming/forest/verba-forest-desktop-1440p.mp4.base64.part05",
+          "bytes": 2800001,
+          "sha256": "8a67004c9f57654fe6b2d8a5881daea5cda21e1873f6390e7c7d6b9cb5374ce3"
+        },
+        {
+          "path": "assets/incoming/forest/verba-forest-desktop-1440p.mp4.base64.part06",
+          "bytes": 2226909,
+          "sha256": "5793bed947b60b70bebc10b3491a63c400bede4e4d5143f724280f604d4d084e"
+        }
+      ]
+    },
+    {
+      "filename": "verba-forest-mobile-1080p.mp4",
+      "bytes": 5250132,
+      "sha256": "94ba31fab4c4a5c49120fa1275b097f7ccf3bb6ee34df0e8751d9866f5e34a71",
+      "encoding": "base64",
+      "parts": [
+        {
+          "path": "assets/incoming/forest/verba-forest-mobile-1080p.mp4.base64.part01",
+          "bytes": 2800001,
+          "sha256": "235d4994ede9384b08538aa519e9563fcd67fa840318b06bb392c07d14607ee2"
+        },
+        {
+          "path": "assets/incoming/forest/verba-forest-mobile-1080p.mp4.base64.part02",
+          "bytes": 2800001,
+          "sha256": "c07c090f8b4ec8f96e4fdbf4d0287ba15d227fad79fb18462a99e620c1c383c3"
+        },
+        {
+          "path": "assets/incoming/forest/verba-forest-mobile-1080p.mp4.base64.part03",
+          "bytes": 1400177,
+          "sha256": "776062646bbef73641ee48c62b8d52991fc664747a6e79a00eb1a2261a99280a"
+        }
+      ]
+    },
+    {
+      "filename": "verba-forest-poster-mobile.webp",
+      "bytes": 448846,
+      "sha256": "325628aa8c9500960310bd243593514c32f9137241d85c794c941ef4fafedbcf",
+      "encoding": "base64",
+      "parts": [
+        {
+          "path": "assets/incoming/forest/verba-forest-poster-mobile.webp.base64.part01",
+          "bytes": 598465,
+          "sha256": "ea25c95904622c0b48f49ad2b52590babec037ca1828be07aa0c767c82bdeb30"
+        }
+      ]
+    },
+    {
+      "filename": "verba-forest-poster.webp",
+      "bytes": 843186,
+      "sha256": "cdbef259278145f2d9a392b0cf04a4e6215a3397ef54adcd5ca4e7d8168ec900",
+      "encoding": "base64",
+      "parts": [
+        {
+          "path": "assets/incoming/forest/verba-forest-poster.webp.base64.part01",
+          "bytes": 1124249,
+          "sha256": "b0bc331a88ae9c499b6e2ab033f530453f47a7b7aae96c2d25d2f5fb8846dc49"
+        }
+      ]
+    }
+  ]
+}
