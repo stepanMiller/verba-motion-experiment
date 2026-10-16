@@ -51,3 +51,50 @@ dialog{border:0;padding:0;width:min(560px,calc(100% - 32px));max-height:calc(100
 :is(.line-link,.header-plan,.solid-button,.scroll-link,.path-tab):focus-visible{outline:2px solid currentColor;outline-offset:5px}
 @media(hover:none){:is(.line-link,.header-plan,.solid-button,.scroll-link):hover>.icon-arrow{transform:none}}
 @media(prefers-reduced-motion:reduce){.icon-arrow{transition:none!important;transform:none!important}}
+
+/* One photographic scene per section; keep copy on an opaque, readable field. */
+.directions{--scene-paper:#e8e3d8;--scene-ink:#203c34}
+.directions[data-active=mind]{--scene-paper:#e6e0d2}
+.directions[data-active=beauty]{--scene-paper:#ebe6df;--scene-ink:#4e4036}
+.directions[data-active=spa]{--scene-paper:#dfe8e1}
+#directions .path-layout{background:var(--scene-paper);color:var(--scene-ink);transition:background-color .7s var(--ease),color .5s var(--ease)}
+#directions .path-content{position:relative;z-index:1;background:transparent;color:var(--scene-ink)}
+.path-visual{margin-right:-120px}
+.path-visual:after{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,transparent 65%,var(--scene-paper) 100%);transition:background .7s var(--ease)}
+.path-visual-label{right:160px;z-index:1}
+.directions .path-panel>p,.directions .medical-note{color:#49564a}
+.path-tab{opacity:1;color:var(--scene-ink)}
+.path-tab:not(.is-active){color:#505c50}
+.path-tab.is-active{font-weight:500}
+.medicine{position:relative;isolation:isolate}
+.medicine:before{content:'';position:absolute;z-index:-1;inset:0 calc((100% - 100vw)/2);background:radial-gradient(ellipse at 25% 50%,#dce4dc 0%,#e9ede5 45%,var(--paper) 78%);pointer-events:none}
+.medicine-grid{align-items:center;gap:48px}
+.portrait-crop{height:auto;aspect-ratio:16/9;overflow:visible}
+.portrait-crop>img{object-position:50% 50%;mask-image:linear-gradient(90deg,transparent,#000 3%,#000 94%,transparent),linear-gradient(0deg,transparent,#000 12%,#000 97%,transparent);mask-composite:intersect}
+.medicine figcaption{margin-top:8px;color:#465448}
+.medicine .medicine-copy{position:relative}
+.retreat:after{content:'';position:absolute;inset:0;pointer-events:none;z-index:-1;background:linear-gradient(0deg,var(--paper),transparent 64px,transparent calc(100% - 40px),var(--paper))}
+@media(max-width:1100px) and (min-width:601px){.path-visual{margin-right:-80px}.path-visual-label{right:108px}.medicine-grid{gap:36px}}
+@media(max-width:600px){
+ #directions .path-layout{background:var(--scene-paper)}
+ .directions .path-content{display:contents}
+ .path-visual{margin-right:0;height:340px}
+ .path-visual:after{background:linear-gradient(0deg,var(--scene-paper),transparent 26%,transparent 86%,var(--scene-paper))}
+ .path-visual-label{right:24px;bottom:16px;color:var(--scene-ink)}
+ .path-visual-label>span:first-child{font-size:44px}
+ .path-shade{background:linear-gradient(0deg,var(--scene-paper),transparent 35%)}
+ .path-panel{margin-top:8px}
+ .medicine-grid{gap:24px}
+ .portrait-crop{height:auto;aspect-ratio:16/9;margin-inline:-20px}
+ .medicine figcaption{margin-top:12px}
+ .retreat:after{background:linear-gradient(0deg,var(--paper),transparent 40px,transparent calc(100% - 32px),var(--paper))}
+}
+@media(min-width:601px){
+ .beauty-image{height:60%;top:20%;object-position:42% 50%;mask-image:linear-gradient(0deg,transparent,#000 12%,#000 88%,transparent)}
+ .directions[data-active=beauty] .path-shade{background:none}
+ .directions[data-active=beauty] .path-visual-label{color:var(--scene-ink)}
+}
+/* Keep labels readable even over the brightest pool/wall pixels. */
+.path-shade{background:linear-gradient(0deg,var(--scene-paper),transparent 38%)}
+.path-visual-label{color:var(--scene-ink)}
+.path-tab:not(.is-active){color:#3c4a40}

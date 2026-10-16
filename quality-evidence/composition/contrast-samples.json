@@ -1,0 +1,1136 @@
+[
+  {
+    "scene": "retreat-375",
+    "text": "СОСНОВЫЙ БОР · 20 КМ ОТ МОСКВЫ",
+    "min": 5.41,
+    "threshold": 4.5
+  },
+  {
+    "scene": "retreat-375",
+    "text": "Вернутьсяк своему ритму.",
+    "min": 5.04,
+    "threshold": 3
+  },
+  {
+    "scene": "retreat-375",
+    "text": "Выбрать своё направление",
+    "min": 11.95,
+    "threshold": 4.5
+  },
+  {
+    "scene": "retreat-375",
+    "text": "Природа вокруг.Внимание к вам.",
+    "min": 7.04,
+    "threshold": 4.5
+  },
+  {
+    "scene": "retreat-375",
+    "text": "Воспроизвести сцену",
+    "min": 10.75,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-375",
+    "text": "Начинаемс врача.",
+    "min": 10.08,
+    "threshold": 3
+  },
+  {
+    "scene": "medicine-375",
+    "text": "Консультация врача VERBA.Внимание к вашей ист",
+    "min": 6.28,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-375",
+    "text": "Консультация, диагностика по показаниям и инд",
+    "min": 9.2,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-375",
+    "text": "Понять ваш запрос",
+    "min": 9.4,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-375",
+    "text": "Самочувствие, привычки и личные цели — в разг",
+    "min": 4.81,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-375",
+    "text": "Увидеть картину целиком",
+    "min": 9.7,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-375",
+    "text": "Собственная диагностическая база. Обследовани",
+    "min": 4.96,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-375",
+    "text": "Найти ваш маршрут",
+    "min": 9.99,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-375",
+    "text": "Индивидуальный подход к питанию, восстановлен",
+    "min": 5.1,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-375",
+    "text": "Начать с вашей цели",
+    "min": 10.29,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-375",
+    "text": "SPA",
+    "min": 12.69,
+    "threshold": 3
+  },
+  {
+    "scene": "spa-375",
+    "text": "04 / 04",
+    "min": 14.13,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-375",
+    "text": "ЧЕТЫРЕ НАПРАВЛЕНИЯ",
+    "min": 16.77,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-375",
+    "text": "Какой ритмнужен вам?",
+    "min": 16.77,
+    "threshold": 3
+  },
+  {
+    "scene": "spa-375",
+    "text": "01MAYR",
+    "min": 16.77,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-375",
+    "text": "02MIND",
+    "min": 16.77,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-375",
+    "text": "03BEAUTY",
+    "min": 16.77,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-375",
+    "text": "04SPA",
+    "min": 16.77,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-375",
+    "text": "Снять напряжение. Почувствовать тело.",
+    "min": 16.77,
+    "threshold": 3
+  },
+  {
+    "scene": "spa-375",
+    "text": "Бассейн, отдых и восстановление в окружении п",
+    "min": 16.77,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-375",
+    "text": "Составить личный план",
+    "min": 16.77,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-375",
+    "text": "Программа, длительность и противопоказания об",
+    "min": 16.77,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-375",
+    "text": "BEAUTY",
+    "min": 12.84,
+    "threshold": 3
+  },
+  {
+    "scene": "beauty-375",
+    "text": "03 / 04",
+    "min": 13.79,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-375",
+    "text": "ЧЕТЫРЕ НАПРАВЛЕНИЯ",
+    "min": 16.92,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-375",
+    "text": "Какой ритмнужен вам?",
+    "min": 16.92,
+    "threshold": 3
+  },
+  {
+    "scene": "beauty-375",
+    "text": "01MAYR",
+    "min": 16.92,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-375",
+    "text": "02MIND",
+    "min": 16.92,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-375",
+    "text": "03BEAUTY",
+    "min": 16.92,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-375",
+    "text": "04SPA",
+    "min": 16.92,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-375",
+    "text": "Забота, которую вы чувствуете.",
+    "min": 16.92,
+    "threshold": 3
+  },
+  {
+    "scene": "beauty-375",
+    "text": "Внимание к коже и индивидуальному уходу. Эсте",
+    "min": 16.92,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-375",
+    "text": "Составить личный план",
+    "min": 16.92,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-375",
+    "text": "Программа, длительность и противопоказания об",
+    "min": 16.92,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-375",
+    "text": "MIND",
+    "min": 5.68,
+    "threshold": 3
+  },
+  {
+    "scene": "mind-375",
+    "text": "02 / 04",
+    "min": 7.1,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-375",
+    "text": "ЧЕТЫРЕ НАПРАВЛЕНИЯ",
+    "min": 9.08,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-375",
+    "text": "Какой ритмнужен вам?",
+    "min": 9.08,
+    "threshold": 3
+  },
+  {
+    "scene": "mind-375",
+    "text": "01MAYR",
+    "min": 7.11,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-375",
+    "text": "02MIND",
+    "min": 9.08,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-375",
+    "text": "03BEAUTY",
+    "min": 7.11,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-375",
+    "text": "04SPA",
+    "min": 7.11,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-375",
+    "text": "Тише вокруг. Спокойнее внутри.",
+    "min": 9.08,
+    "threshold": 3
+  },
+  {
+    "scene": "mind-375",
+    "text": "Время уделить внимание сну, эмоциональному со",
+    "min": 15.96,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-375",
+    "text": "Составить личный план",
+    "min": 9.08,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-375",
+    "text": "Программа, длительность и противопоказания об",
+    "min": 5.88,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-375",
+    "text": "MAYR",
+    "min": 7.37,
+    "threshold": 3
+  },
+  {
+    "scene": "mayr-375",
+    "text": "01 / 04",
+    "min": 7.81,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-375",
+    "text": "ЧЕТЫРЕ НАПРАВЛЕНИЯ",
+    "min": 9.34,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-375",
+    "text": "Какой ритмнужен вам?",
+    "min": 9.34,
+    "threshold": 3
+  },
+  {
+    "scene": "mayr-375",
+    "text": "01MAYR",
+    "min": 9.34,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-375",
+    "text": "02MIND",
+    "min": 7.31,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-375",
+    "text": "03BEAUTY",
+    "min": 7.31,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-375",
+    "text": "04SPA",
+    "min": 7.31,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-375",
+    "text": "Лёгкость начинается изнутри.",
+    "min": 9.34,
+    "threshold": 3
+  },
+  {
+    "scene": "mayr-375",
+    "text": "Питание и привычки по методу Майера. Внимател",
+    "min": 6.05,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-375",
+    "text": "Составить личный план",
+    "min": 9.34,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-375",
+    "text": "Программа, длительность и противопоказания об",
+    "min": 6.05,
+    "threshold": 4.5
+  },
+  {
+    "scene": "retreat-390",
+    "text": "СОСНОВЫЙ БОР · 20 КМ ОТ МОСКВЫ",
+    "min": 5.49,
+    "threshold": 4.5
+  },
+  {
+    "scene": "retreat-390",
+    "text": "Вернутьсяк своему ритму.",
+    "min": 5.2,
+    "threshold": 3
+  },
+  {
+    "scene": "retreat-390",
+    "text": "Выбрать своё направление",
+    "min": 11.95,
+    "threshold": 4.5
+  },
+  {
+    "scene": "retreat-390",
+    "text": "Природа вокруг.Внимание к вам.",
+    "min": 7.26,
+    "threshold": 4.5
+  },
+  {
+    "scene": "retreat-390",
+    "text": "Воспроизвести сцену",
+    "min": 10.91,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-390",
+    "text": "Начинаемс врача.",
+    "min": 10.08,
+    "threshold": 3
+  },
+  {
+    "scene": "medicine-390",
+    "text": "Консультация врача VERBA.Внимание к вашей ист",
+    "min": 6.24,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-390",
+    "text": "Консультация, диагностика по показаниям и инд",
+    "min": 9.2,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-390",
+    "text": "Понять ваш запрос",
+    "min": 9.4,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-390",
+    "text": "Самочувствие, привычки и личные цели — в разг",
+    "min": 4.81,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-390",
+    "text": "Увидеть картину целиком",
+    "min": 9.7,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-390",
+    "text": "Собственная диагностическая база. Обследовани",
+    "min": 4.96,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-390",
+    "text": "Найти ваш маршрут",
+    "min": 9.99,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-390",
+    "text": "Индивидуальный подход к питанию, восстановлен",
+    "min": 5.1,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-390",
+    "text": "Начать с вашей цели",
+    "min": 10.29,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-390",
+    "text": "SPA",
+    "min": 12.65,
+    "threshold": 3
+  },
+  {
+    "scene": "spa-390",
+    "text": "04 / 04",
+    "min": 13.87,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-390",
+    "text": "ЧЕТЫРЕ НАПРАВЛЕНИЯ",
+    "min": 16.77,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-390",
+    "text": "Какой ритмнужен вам?",
+    "min": 16.77,
+    "threshold": 3
+  },
+  {
+    "scene": "spa-390",
+    "text": "01MAYR",
+    "min": 16.77,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-390",
+    "text": "02MIND",
+    "min": 16.77,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-390",
+    "text": "03BEAUTY",
+    "min": 16.77,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-390",
+    "text": "04SPA",
+    "min": 16.77,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-390",
+    "text": "Снять напряжение. Почувствовать тело.",
+    "min": 16.77,
+    "threshold": 3
+  },
+  {
+    "scene": "spa-390",
+    "text": "Бассейн, отдых и восстановление в окружении п",
+    "min": 16.77,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-390",
+    "text": "Составить личный план",
+    "min": 16.77,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-390",
+    "text": "Программа, длительность и противопоказания об",
+    "min": 16.77,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-390",
+    "text": "BEAUTY",
+    "min": 12.17,
+    "threshold": 3
+  },
+  {
+    "scene": "beauty-390",
+    "text": "03 / 04",
+    "min": 13.76,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-390",
+    "text": "ЧЕТЫРЕ НАПРАВЛЕНИЯ",
+    "min": 16.92,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-390",
+    "text": "Какой ритмнужен вам?",
+    "min": 16.92,
+    "threshold": 3
+  },
+  {
+    "scene": "beauty-390",
+    "text": "01MAYR",
+    "min": 16.92,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-390",
+    "text": "02MIND",
+    "min": 16.92,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-390",
+    "text": "03BEAUTY",
+    "min": 16.92,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-390",
+    "text": "04SPA",
+    "min": 16.92,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-390",
+    "text": "Забота, которую вы чувствуете.",
+    "min": 16.92,
+    "threshold": 3
+  },
+  {
+    "scene": "beauty-390",
+    "text": "Внимание к коже и индивидуальному уходу. Эсте",
+    "min": 16.92,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-390",
+    "text": "Составить личный план",
+    "min": 16.92,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-390",
+    "text": "Программа, длительность и противопоказания об",
+    "min": 16.92,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-390",
+    "text": "MIND",
+    "min": 5.55,
+    "threshold": 3
+  },
+  {
+    "scene": "mind-390",
+    "text": "02 / 04",
+    "min": 7.24,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-390",
+    "text": "ЧЕТЫРЕ НАПРАВЛЕНИЯ",
+    "min": 9.08,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-390",
+    "text": "Какой ритмнужен вам?",
+    "min": 9.08,
+    "threshold": 3
+  },
+  {
+    "scene": "mind-390",
+    "text": "01MAYR",
+    "min": 7.11,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-390",
+    "text": "02MIND",
+    "min": 9.08,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-390",
+    "text": "03BEAUTY",
+    "min": 7.11,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-390",
+    "text": "04SPA",
+    "min": 7.11,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-390",
+    "text": "Тише вокруг. Спокойнее внутри.",
+    "min": 9.08,
+    "threshold": 3
+  },
+  {
+    "scene": "mind-390",
+    "text": "Время уделить внимание сну, эмоциональному со",
+    "min": 15.96,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-390",
+    "text": "Составить личный план",
+    "min": 9.08,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-390",
+    "text": "Программа, длительность и противопоказания об",
+    "min": 5.88,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-390",
+    "text": "MAYR",
+    "min": 7.15,
+    "threshold": 3
+  },
+  {
+    "scene": "mayr-390",
+    "text": "01 / 04",
+    "min": 7.82,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-390",
+    "text": "ЧЕТЫРЕ НАПРАВЛЕНИЯ",
+    "min": 9.34,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-390",
+    "text": "Какой ритмнужен вам?",
+    "min": 9.34,
+    "threshold": 3
+  },
+  {
+    "scene": "mayr-390",
+    "text": "01MAYR",
+    "min": 9.34,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-390",
+    "text": "02MIND",
+    "min": 7.31,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-390",
+    "text": "03BEAUTY",
+    "min": 7.31,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-390",
+    "text": "04SPA",
+    "min": 7.31,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-390",
+    "text": "Лёгкость начинается изнутри.",
+    "min": 9.34,
+    "threshold": 3
+  },
+  {
+    "scene": "mayr-390",
+    "text": "Питание и привычки по методу Майера. Внимател",
+    "min": 6.05,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-390",
+    "text": "Составить личный план",
+    "min": 9.34,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-390",
+    "text": "Программа, длительность и противопоказания об",
+    "min": 6.05,
+    "threshold": 4.5
+  },
+  {
+    "scene": "retreat-1440",
+    "text": "СОСНОВЫЙ БОР · 20 КМ ОТ МОСКВЫ",
+    "min": 7.43,
+    "threshold": 4.5
+  },
+  {
+    "scene": "retreat-1440",
+    "text": "Вернутьсяк своему ритму.",
+    "min": 4.31,
+    "threshold": 3
+  },
+  {
+    "scene": "retreat-1440",
+    "text": "Выбрать своё направление",
+    "min": 11.95,
+    "threshold": 4.5
+  },
+  {
+    "scene": "retreat-1440",
+    "text": "Природа вокруг.Внимание к вам.",
+    "min": 8.92,
+    "threshold": 4.5
+  },
+  {
+    "scene": "retreat-1440",
+    "text": "Воспроизвести сцену",
+    "min": 8.33,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-1440",
+    "text": "Начинаемс врача.",
+    "min": 9.88,
+    "threshold": 3
+  },
+  {
+    "scene": "medicine-1440",
+    "text": "Консультация врача VERBA.Внимание к вашей ист",
+    "min": 6.69,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-1440",
+    "text": "Консультация, диагностика по показаниям и инд",
+    "min": 9.88,
+    "threshold": 3
+  },
+  {
+    "scene": "medicine-1440",
+    "text": "Понять ваш запрос",
+    "min": 9.88,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-1440",
+    "text": "Самочувствие, привычки и личные цели — в разг",
+    "min": 5.0,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-1440",
+    "text": "Увидеть картину целиком",
+    "min": 9.9,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-1440",
+    "text": "Собственная диагностическая база. Обследовани",
+    "min": 5.05,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-1440",
+    "text": "Найти ваш маршрут",
+    "min": 10.08,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-1440",
+    "text": "Индивидуальный подход к питанию, восстановлен",
+    "min": 5.15,
+    "threshold": 4.5
+  },
+  {
+    "scene": "medicine-1440",
+    "text": "Начать с вашей цели",
+    "min": 10.29,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-1440",
+    "text": "SPA",
+    "min": 10.1,
+    "threshold": 3
+  },
+  {
+    "scene": "spa-1440",
+    "text": "04 / 04",
+    "min": 14.03,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-1440",
+    "text": "ЧЕТЫРЕ НАПРАВЛЕНИЯ",
+    "min": 15.76,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-1440",
+    "text": "Какой ритмнужен вам?",
+    "min": 14.29,
+    "threshold": 3
+  },
+  {
+    "scene": "spa-1440",
+    "text": "01MAYR",
+    "min": 14.27,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-1440",
+    "text": "02MIND",
+    "min": 14.4,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-1440",
+    "text": "03BEAUTY",
+    "min": 14.27,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-1440",
+    "text": "04SPA",
+    "min": 15.08,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-1440",
+    "text": "Снять напряжение. Почувствовать тело.",
+    "min": 15.08,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-1440",
+    "text": "Бассейн, отдых и восстановление в окружении п",
+    "min": 15.81,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-1440",
+    "text": "Составить личный план",
+    "min": 16.27,
+    "threshold": 4.5
+  },
+  {
+    "scene": "spa-1440",
+    "text": "Программа, длительность и противопоказания об",
+    "min": 16.35,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "BEAUTY",
+    "min": 16.92,
+    "threshold": 3
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "03 / 04",
+    "min": 16.76,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "ЧЕТЫРЕ НАПРАВЛЕНИЯ",
+    "min": 16.88,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "Какой ритмнужен вам?",
+    "min": 16.64,
+    "threshold": 3
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "01MAYR",
+    "min": 16.76,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "02MIND",
+    "min": 16.26,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "03BEAUTY",
+    "min": 15.2,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "04SPA",
+    "min": 15.27,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "Забота, которую вы чувствуете.",
+    "min": 14.99,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "Внимание к коже и индивидуальному уходу. Эсте",
+    "min": 15.16,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "Составить личный план",
+    "min": 16.08,
+    "threshold": 4.5
+  },
+  {
+    "scene": "beauty-1440",
+    "text": "Программа, длительность и противопоказания об",
+    "min": 16.76,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-1440",
+    "text": "MIND",
+    "min": 3.72,
+    "threshold": 3
+  },
+  {
+    "scene": "mind-1440",
+    "text": "02 / 04",
+    "min": 8.43,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-1440",
+    "text": "ЧЕТЫРЕ НАПРАВЛЕНИЯ",
+    "min": 7.19,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-1440",
+    "text": "Какой ритмнужен вам?",
+    "min": 7.12,
+    "threshold": 3
+  },
+  {
+    "scene": "mind-1440",
+    "text": "01MAYR",
+    "min": 5.63,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-1440",
+    "text": "02MIND",
+    "min": 9.0,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-1440",
+    "text": "03BEAUTY",
+    "min": 6.4,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-1440",
+    "text": "04SPA",
+    "min": 6.53,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-1440",
+    "text": "Тише вокруг. Спокойнее внутри.",
+    "min": 8.2,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-1440",
+    "text": "Время уделить внимание сну, эмоциональному со",
+    "min": 13.54,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-1440",
+    "text": "Составить личный план",
+    "min": 8.9,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mind-1440",
+    "text": "Программа, длительность и противопоказания об",
+    "min": 5.76,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-1440",
+    "text": "MAYR",
+    "min": 5.89,
+    "threshold": 3
+  },
+  {
+    "scene": "mayr-1440",
+    "text": "01 / 04",
+    "min": 8.03,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-1440",
+    "text": "ЧЕТЫРЕ НАПРАВЛЕНИЯ",
+    "min": 8.88,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-1440",
+    "text": "Какой ритмнужен вам?",
+    "min": 8.88,
+    "threshold": 3
+  },
+  {
+    "scene": "mayr-1440",
+    "text": "01MAYR",
+    "min": 8.82,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-1440",
+    "text": "02MIND",
+    "min": 6.84,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-1440",
+    "text": "03BEAUTY",
+    "min": 6.71,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-1440",
+    "text": "04SPA",
+    "min": 5.92,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-1440",
+    "text": "Лёгкость начинается изнутри.",
+    "min": 7.96,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-1440",
+    "text": "Питание и привычки по методу Майера. Внимател",
+    "min": 5.22,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-1440",
+    "text": "Составить личный план",
+    "min": 8.45,
+    "threshold": 4.5
+  },
+  {
+    "scene": "mayr-1440",
+    "text": "Программа, длительность и противопоказания об",
+    "min": 5.92,
+    "threshold": 4.5
+  }
+]
